@@ -1,0 +1,5868 @@
+5 threads / QD locking
+capacity: 10Elaray10
+Made it waiting, I was Push!Made it waiting, I was Pop! Made it waiting, I was Push!63
+ 
+7 
+Match made, I was Pop! 6
+Match made, I was Push! 3
+Match made, I was Push! 7
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Made it waiting, I was Push!3 
+Made it waiting, I was Push!6 
+Match made, I was Push! 3
+Match made, I was Push! 6
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 9
+Pop tried to meet pop! 7
+Match made, I was Pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 1
+Pop tried to meet pop! 2
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! Pop tried to meet pop! 6
+5
+Match made, I was Pop! 6
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Pop tried to meet pop! 9
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Pop tried to meet pop! 7
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 5
+Match made, I was Push! 4
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 5
+Made it waiting, I was Push!4 
+Match made, I was Pop! 5
+Match made, I was Push! 4
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 2
+Made it waiting, I was Push!0 
+Match made, I was Pop! 2
+Pop tried to meet pop! 6
+Match made, I was Push! 0
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Made it waiting, I was Push!2 
+Made it waiting, I was Push!7 
+Match made, I was Push! 2
+Match made, I was Push! 7
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Push!4 
+Made it waiting, I was Push!9 
+Match made, I was Push! 4
+Match made, I was Push! 9
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Pop tried to meet pop! 7
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 1
+Match made, I was Push! 1
+Made it waiting, I was Push!5 
+Made it waiting, I was Pop! 9
+Match made, I was Push! 5
+Match made, I was Pop! 9
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Pop tried to meet pop! 6
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 3
+Pop tried to meet pop! 0
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 9
+Made it waiting, I was Push!6 
+Made it waiting, I was Push!3 
+Match made, I was Push! 6
+Match made, I was Push! 3
+Made it waiting, I was Push!8 
+Made it waiting, I was Push!5 
+Match made, I was Push! 8
+Match made, I was Push! 5
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 1
+Made it waiting, I was Push!5 
+Match made, I was Pop! 1
+Match made, I was Push! 5
+Pop tried to meet pop! 9
+Made it waiting, I was Push!8 
+Set to busy, I was Pop!8 
+Match made, I was Push! 8
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 0
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 7
+Pop tried to meet pop! 6
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 1
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 7
+Pop tried to meet pop! 5
+Pop tried to meet pop! 3
+Pop tried to meet pop! 8
+Pop tried to meet pop! 8
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Made it waiting, I was Pop! 9
+Pop tried to meet pop! 6
+Match made, I was Pop! 9
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 3
+Match made, I was Push! 4
+Pop tried to meet pop! 3
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 6
+Match made, I was Push! 8
+Made it waiting, I was Push!0 
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 8
+Match made, I was Push! 0
+Made it waiting, I was Push!9 
+Match made, I was Pop! 4
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Match made, I was Push! 9
+Made it waiting, I was Push!4Pop tried to meet pop!  
+Pop tried to meet pop! 30
+
+Pop tried to meet pop! Match made, I was Push! 94Pop tried to meet pop! 
+2
+Made it waiting, I was Push!5
+ 
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Match made, I was Push! 5
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 9
+Pop tried to meet pop! 2
+Match made, I was Push! 4
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 5
+Match made, I was Push! 4
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 2
+Match made, I was Push! 4
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 3
+Pop tried to meet pop! 6
+Match made, I was Push! 9
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 2
+Pop tried to meet pop! 0
+Match made, I was Push! 0
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 5
+Match made, I was Push! 1
+Pop tried to meet pop! 0
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Match made, I was Push! 6
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Match made, I was Push! 8
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 2
+Pop tried to meet pop! 4
+Match made, I was Push! 4
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Match made, I was Push! 6
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Match made, I was Push! 0
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Match made, I was Push! 1
+Pop tried to meet pop! 0
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 6
+Pop tried to meet pop! 9Match made, I was Push! 
+3
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 8
+Pop tried to meet pop! 0
+Match made, I was Push! 3
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Match made, I was Push! 6
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Match made, I was Push! 0
+Pop tried to meet pop! 7
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 8
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 8
+Match made, I was Pop! 7
+Pop tried to meet pop! 2
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 2
+Match made, I was Push! 8
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 6
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 4
+Pop tried to meet pop! 8
+Pop tried to meet pop! 0
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Pop tried to meet pop! 0
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 5
+Pop tried to meet pop! 2
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 0
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 0
+Match made, I was Pop! 2
+Pop tried to meet pop! 8
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 0
+Match made, I was Pop! 8
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 0
+Match made, I was Pop! 4
+Made it waiting, I was Pop! 9
+Pop tried to meet pop! 1
+Match made, I was Pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 0
+Pop tried to meet pop! 5
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 9
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Pop tried to meet pop! 5
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Push!7 
+Made it waiting, I was Pop! 4
+Made it waiting, I was Pop! 3
+Match made, I was Push! 7
+Match made, I was Pop! 4
+Match made, I was Pop! 3
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 6
+Pop tried to meet pop! 9
+Match made, I was Pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Push!2 
+Pop tried to meet pop! Pop tried to meet pop! 8
+8
+Match made, I was Push! 2
+Made it waiting, I was Push!9 
+Pop tried to meet pop! Pop tried to meet pop! 2
+8
+Match made, I was Push! 9
+Made it waiting, I was Push!8 
+Pop tried to meet pop! Pop tried to meet pop! 86
+
+Match made, I was Push! 8
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Push!3 
+Pop tried to meet pop! Pop tried to meet pop! 83
+
+Match made, I was Push! 3
+Made it waiting, I was Push!3 
+Pop tried to meet pop! Pop tried to meet pop! 38
+
+Match made, I was Push! 3
+Made it waiting, I was Push!0 
+Pop tried to meet pop! Pop tried to meet pop! 4
+7
+Match made, I was Push! 0
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Push!8 
+Pop tried to meet pop! Pop tried to meet pop! 9
+0
+Match made, I was Push! 8
+Made it waiting, I was Push!6 
+Pop tried to meet pop! Pop tried to meet pop! 8
+7
+Match made, I was Push! 6
+Made it waiting, I was Push!9 
+Pop tried to meet pop! Pop tried to meet pop! 3
+0
+Match made, I was Push! 9
+Pop tried to meet pop! 3
+Pop tried to meet pop! 3
+Pop tried to meet pop! Made it waiting, I was Push!3
+7 
+Pop tried to meet pop! 2
+Match made, I was Push! 7
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 5
+Match made, I was Push! 6
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 6
+Match made, I was Push! 2
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 8
+Match made, I was Push! 5
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 9
+Match made, I was Push! 7
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 0
+Match made, I was Push! 6
+Pop tried to meet pop! Made it waiting, I was Push!1 
+4
+Pop tried to meet pop! 0
+Match made, I was Push! 1
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 8
+Match made, I was Push! 4
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 0
+Match made, I was Push! 7
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 6
+Match made, I was Push! 8
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 4
+Match made, I was Push! 2
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 9
+Match made, I was Push! 7
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 9
+Match made, I was Push! Pop tried to meet pop! 3
+2Made it waiting, I was Push!
+8 
+Pop tried to meet pop! 3
+Match made, I was Push! 8
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 1
+Match made, I was Push! 0
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 8
+Match made, I was Push! 7
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 1
+Match made, I was Push! 9
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 4
+Match made, I was Push! 5
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 2
+Match made, I was Push! 9
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Match made, I was Push! 5
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 9
+Match made, I was Push! 9
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 5
+Match made, I was Push! 4
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 3
+Match made, I was Push! 9
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 7
+Match made, I was Push! 5
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 8
+Match made, I was Push! 0
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 9
+Match made, I was Push! 1
+Pop tried to meet pop! 9Made it waiting, I was Push!
+7 
+Pop tried to meet pop! 8
+Match made, I was Push! 7
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Pop tried to meet pop! 4
+Made it waiting, I was Push!0 
+Set to busy, I was Pop!0 
+Made it waiting, I was Push!1 
+Match made, I was Push! 0
+Match made, I was Push! 1
+Slot was busy!9 
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 2
+Pop tried to meet pop! 7
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!4 
+Made it waiting, I was Pop! 0
+Match made, I was Push! 4
+Match made, I was Pop! 0
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Made it waiting, I was Pop! Pop tried to meet pop! 85
+
+Match made, I was Pop! 8
+Pop tried to meet pop! 8
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 6
+Match made, I was Push! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! Pop tried to meet pop! 01
+
+Made it waiting, I was Push!Pop tried to meet pop! 0 
+1
+Match made, I was Push! 0
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 7
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 7
+Match made, I was Pop! 2
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 9
+Match made, I was Pop! 0
+Made it waiting, I was Push!9Pop tried to meet pop!  
+4
+Match made, I was Push! 9
+Pop tried to meet pop! 5
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 0
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 9
+Match made, I was Push! 0
+Made it waiting, I was Push!7 
+Made it waiting, I was Push!9 
+Match made, I was Push! 7
+Match made, I was Push! 9
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 3
+Pop tried to meet pop! 3
+Pop tried to meet pop! 8
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 7
+Match made, I was Push! 3
+Pop tried to meet pop! 9
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 7
+Match made, I was Push! 3
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 7
+Match made, I was Push! 8
+Pop tried to meet pop! 1
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 0
+Match made, I was Push! 9
+Made it waiting, I was Pop! 9
+Pop tried to meet pop! 8
+Match made, I was Pop! 9
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 1
+Match made, I was Push! 7
+Made it waiting, I was Pop! 3
+Pop tried to meet pop! 8
+Match made, I was Pop! 3
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 7
+Pop tried to meet pop! 9
+Match made, I was Pop! 7
+Pop tried to meet pop! 9
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 2
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 2
+Match made, I was Pop! 4
+Pop tried to meet pop! 3
+Made it waiting, I was Push!7 
+Made it waiting, I was Pop! 1
+Match made, I was Push! 7
+Match made, I was Pop! 1
+Made it waiting, I was Pop! 2
+Pop tried to meet pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 2
+Pop tried to meet pop! 1
+Match made, I was Pop! 2
+Pop tried to meet pop! 7
+Pop tried to meet pop! 5
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 7
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 7
+Match made, I was Pop! 4
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 7
+Pop tried to meet pop! 1
+Match made, I was Pop! 7
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Push!7 
+Made it waiting, I was Push!0 
+Match made, I was Push! 7
+Match made, I was Push! 0
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 0
+Match made, I was Pop! 4
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Made it waiting, I was Pop! 8Pop tried to meet pop! 
+1
+Match made, I was Pop! 8
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 9
+Made it waiting, I was Push!7 
+Match made, I was Pop! 9
+Match made, I was Push! 7
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Made it waiting, I was Push!6 
+Made it waiting, I was Pop! 3
+Pop tried to meet pop! 7
+Match made, I was Push! 6
+Match made, I was Pop! 3
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 1
+Match made, I was Push! 9
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 5
+Match made, I was Pop! 8
+Pop tried to meet pop! 3
+Pop tried to meet pop! 4
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Match made, I was Push! 1
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Made it waiting, I was Pop! 3
+Pop tried to meet pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 5
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Pop tried to meet pop! 6
+Pop tried to meet pop! 3
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Pop tried to meet pop! 0
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Pop tried to meet pop! 0
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 1
+Match made, I was Push! 4
+Pop tried to meet pop! 1
+Pop tried to meet pop! Pop tried to meet pop! 35
+
+Pop tried to meet pop! 9Pop tried to meet pop! 
+3
+Pop tried to meet pop! Pop tried to meet pop! 41
+
+Pop tried to meet pop! Pop tried to meet pop! 50
+
+Pop tried to meet pop! Pop tried to meet pop! 8
+3
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Pop tried to meet pop! 6
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Pop tried to meet pop! 6
+Pop tried to meet pop! 1
+Pop tried to meet pop! 5
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 0
+Pop tried to meet pop! 8
+Pop tried to meet pop! 1
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 2
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 5
+Pop tried to meet pop! 2
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 3
+Pop tried to meet pop! 8
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Pop tried to meet pop! 8
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 3
+Match made, I was Pop! 8
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 4
+Match made, I was Push! 2
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 5
+Pop tried to meet pop! 7
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Pop! 9
+Pop tried to meet pop! 8
+Match made, I was Pop! 9
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 3
+Match made, I was Push! 3
+Made it waiting, I was Pop! 9
+Made it waiting, I was Push!8 
+Match made, I was Pop! 9
+Match made, I was Push! 8
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 8
+Set to busy, I was Pop!4 
+Match made, I was Push! 4
+Pop tried to meet pop! 8
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Pop tried to meet pop! 6
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Pop! 1
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Match made, I was Pop! 1
+Made it waiting, I was Pop! 9
+Made it waiting, I was Push!6 
+Match made, I was Pop! 9
+Match made, I was Push! 6
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 9
+Match made, I was Pop! 4
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Pop tried to meet pop! 8
+Made it waiting, I was Push!9 
+Made it waiting, I was Pop! 3
+Match made, I was Push! 9
+Match made, I was Pop! 3
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 4
+Made it waiting, I was Push!8 
+Match made, I was Push! 1
+Match made, I was Push! 8
+Pop tried to meet pop! 6
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 0
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 0
+Match made, I was Pop! 9
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 4
+Match made, I was Push! 0
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 1
+Match made, I was Push! 4
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Pop tried to meet pop! Made it waiting, I was Pop! 30
+
+Pop tried to meet pop! 3
+Match made, I was Pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Pop tried to meet pop! 4
+Pop tried to meet pop! 1
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 2
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 7
+Pop tried to meet pop! 9
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Pop tried to meet pop! 6
+Pop tried to meet pop! 3
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Pop tried to meet pop! 9
+Pop tried to meet pop! 5
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Pop tried to meet pop! 8
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Made it waiting, I was Push!5Pop tried to meet pop!  
+Pop tried to meet pop! 85
+
+Match made, I was Push! 5
+Made it waiting, I was Push!5 
+Pop tried to meet pop! Pop tried to meet pop! 07
+
+Match made, I was Push! 5
+Made it waiting, I was Push!3 
+Pop tried to meet pop! Pop tried to meet pop! 82
+
+Match made, I was Push! 3
+Made it waiting, I was Push!3 
+Match made, I was Push! 3Pop tried to meet pop! 
+0
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 7
+Match made, I was Push! 7
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 6
+Pop tried to meet pop! 9
+Match made, I was Push! 7
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 9
+Match made, I was Push! 1
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 8
+Pop tried to meet pop! 9
+Match made, I was Push! 0
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 8Match made, I was Push! 
+Pop tried to meet pop! 0
+8
+Made it waiting, I was Push!3 
+Match made, I was Push! Pop tried to meet pop! Pop tried to meet pop! 70
+
+3
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Pop tried to meet pop! 9
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 1
+Match made, I was Push! 2
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 9
+Match made, I was Push! 7
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 6
+Match made, I was Push! 7
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 7
+Match made, I was Push! 2
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 5
+Match made, I was Push! 7
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 8
+Pop tried to meet pop! 4
+Match made, I was Push! 8
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 6
+Match made, I was Push! 5
+Pop tried to meet pop! 5Made it waiting, I was Push!
+6 
+Pop tried to meet pop! 8
+Match made, I was Push! 6
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 8
+Pop tried to meet pop! 8
+Match made, I was Push! 4
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 8
+Match made, I was Push! 3
+Pop tried to meet pop! Made it waiting, I was Push!75 
+
+Pop tried to meet pop! 2
+Match made, I was Push! 5
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 5
+Pop tried to meet pop! 0
+Match made, I was Push! 4
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 7
+Match made, I was Push! Pop tried to meet pop! 53
+
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 7
+Match made, I was Push! 2
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Match made, I was Push! 2
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 9
+Match made, I was Push! 4
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 9
+Match made, I was Push! 4
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Match made, I was Push! 5
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 2
+Match made, I was Push! 1Pop tried to meet pop! 
+2
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 6
+Match made, I was Push! 1
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Match made, I was Push! 2
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 3
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Made it waiting, I was Push!2 
+Made it waiting, I was Pop! 7
+Match made, I was Push! 2
+Match made, I was Pop! 7
+Made it waiting, I was Pop! 7
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 7
+Match made, I was Pop! 8
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Pop tried to meet pop! 7
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 2
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 2
+Match made, I was Pop! 6
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Push!6 
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 0
+Match made, I was Push! 6
+Match made, I was Pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 1
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Push!3 
+Made it waiting, I was Push!8 
+Match made, I was Push! 3
+Match made, I was Push! 8
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Pop! 5
+Made it waiting, I was Push!3 
+Match made, I was Pop! 5
+Match made, I was Push! 3
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 0
+Match made, I was Push! 6
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 3
+Made it waiting, I was Push!6 
+Match made, I was Pop! 3
+Match made, I was Push! 6
+Pop tried to meet pop! 1
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 5
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0
+Pop tried to meet pop! 4
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 1
+Pop tried to meet pop! 6
+Pop tried to meet pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 3
+Pop tried to meet pop! 3
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 1
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 2
+Made it waiting, I was Push!2 
+Made it waiting, I was Pop! 9
+Match made, I was Push! 2
+Match made, I was Pop! 9
+Made it waiting, I was Pop! 2
+Pop tried to meet pop! 8
+Pop tried to meet pop! 1
+Match made, I was Pop! 2
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Pop! 7
+Pop tried to meet pop! 8
+Match made, I was Pop! 7
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 7
+Match made, I was Push! 7
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 2
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 3
+Match made, I was Push! 5
+Made it waiting, I was Pop! 7
+Made it waiting, I was Pop! 6
+Pop tried to meet pop! 8
+Match made, I was Pop! 7
+Pop tried to meet pop! 1
+Match made, I was Pop! 6
+Pop tried to meet pop! 3
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 0
+Match made, I was Pop! 4
+Pop tried to meet pop! 3
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 2
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 9
+Match made, I was Pop! 2
+Match made, I was Push! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 6
+Pop tried to meet pop! 3
+Pop tried to meet pop! 0
+Match made, I was Pop! 6Pop tried to meet pop! 
+3
+Pop tried to meet pop! 8
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 5
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Pop tried to meet pop! 8
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Pop tried to meet pop! 3
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 5
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 7
+Pop tried to meet pop! Pop tried to meet pop! 2
+7
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 5
+Pop tried to meet pop! 5
+Pop tried to meet pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 0
+Made it waiting, I was Push!5 
+Match made, I was Pop! 0
+Match made, I was Push! 5
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 0
+Match made, I was Pop! 1
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 3
+Pop tried to meet pop! 6
+Match made, I was Pop! 3
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 2
+Match made, I was Push! 1
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 8
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 7
+Pop tried to meet pop! 9
+Match made, I was Pop! 7
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Made it waiting, I was Pop! 9
+Pop tried to meet pop! 6
+Match made, I was Pop! 9
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 6
+Made it waiting, I was Push!8 
+Match made, I was Push! 3
+Match made, I was Push! 8
+Pop tried to meet pop! 4
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Pop! 6
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 6
+Match made, I was Pop! 7
+Pop tried to meet pop! 2
+Pop tried to meet pop! 7
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 7
+Match made, I was Push! 4
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 1
+Match made, I was Push! 2
+Made it waiting, I was Pop! 7
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 7
+Match made, I was Pop! 9
+Made it waiting, I was Pop! 5
+Pop tried to meet pop! 6
+Match made, I was Pop! 5
+Pop tried to meet pop! 8
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 5
+Pop tried to meet pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Made it waiting, I was Push!9 
+Made it waiting, I was Push!1 
+Match made, I was Push! 9
+Made it waiting, I was Push!Match made, I was Push! 61
+ 
+Match made, I was Push! 6
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 1
+Match made, I was Push! 2
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 5
+Match made, I was Pop! 0
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Pop! 1
+Pop tried to meet pop! 9
+Made it waiting, I was Push!7 
+Match made, I was Pop! 1
+Match made, I was Push! 7
+Pop tried to meet pop! 6
+Pop tried to meet pop! 8
+Pop tried to meet pop! 2
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 3
+Pop tried to meet pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 1
+Match made, I was Push! 4
+Match made, I was Pop! 1
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!3 
+Made it waiting, I was Pop! 8
+Made it waiting, I was Pop! 0
+Match made, I was Push! 3
+Match made, I was Pop! 8
+Match made, I was Pop! 0
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 2
+Match made, I was Push! 9
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 8
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Push!6 
+Made it waiting, I was Pop! 3
+Match made, I was Push! 6
+Match made, I was Pop! 3
+Pop tried to meet pop! 8
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 0
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 0
+Match made, I was Pop! 1
+Pop tried to meet pop! 2
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Pop! 4
+Made it waiting, I was Push!8Pop tried to meet pop!  
+5
+Match made, I was Pop! 4
+Match made, I was Push! 8
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 5
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 5
+Match made, I was Pop! 2
+Pop tried to meet pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!4 
+Made it waiting, I was Push!3 
+Match made, I was Push! 4
+Made it waiting, I was Push!9 
+Match made, I was Push! 3
+Match made, I was Push! 9
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 6
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Made it waiting, I was Push!3 
+Made it waiting, I was Pop! 5
+Pop tried to meet pop! 5
+Match made, I was Push! 3
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 8
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 8
+Match made, I was Pop! 7
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Made it waiting, I was Push!1Made it waiting, I was Push! 
+3 
+Match made, I was Push! Match made, I was Push! 31
+
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Pop tried to meet pop! Made it waiting, I was Push!29
+ 
+Pop tried to meet pop! 6
+Match made, I was Push! 9
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 9
+Match made, I was Push! 0
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 5
+Match made, I was Push! 3
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 3
+Match made, I was Push! 4
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 4
+Match made, I was Push! 6
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 1
+Match made, I was Push! 3
+Pop tried to meet pop! Made it waiting, I was Push!1
+9 
+Pop tried to meet pop! 0
+Match made, I was Push! 9
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 4
+Match made, I was Push! 9
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 6
+Match made, I was Push! 5
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 5
+Match made, I was Push! 2
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 1
+Match made, I was Push! 9
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 7
+Match made, I was Push! 7
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Match made, I was Push! 4
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 1
+Match made, I was Push! 9
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 8
+Match made, I was Push! 3
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 4
+Match made, I was Push! 7
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 3
+Match made, I was Push! 9
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 3
+Match made, I was Push! 1
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 7
+Match made, I was Push! 8
+Pop tried to meet pop! Made it waiting, I was Push!93 
+
+Pop tried to meet pop! 8
+Match made, I was Push! 3
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 4
+Match made, I was Push! 8
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 0
+Match made, I was Push! 0
+Made it waiting, I was Push!8 
+Pop tried to meet pop! Match made, I was Push! 68
+
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Pop tried to meet pop! 2
+Made it waiting, I was Push!3 
+Made it waiting, I was Pop! 8
+Match made, I was Push! 3
+Match made, I was Pop! 8
+Pop tried to meet pop! Made it waiting, I was Pop! 0
+5
+Pop tried to meet pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Pop tried to meet pop! 3
+Pop tried to meet pop! 6
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Pop tried to meet pop! 5
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 1
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 3
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Pop tried to meet pop! 3
+Pop tried to meet pop! 5
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 5
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 5
+Pop tried to meet pop! 5
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 8
+Match made, I was Push! 5
+Match made, I was Pop! 8
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 3
+Pop tried to meet pop! 0
+Match made, I was Pop! 3
+Pop tried to meet pop! 7
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 5
+Match made, I was Push! 6
+Made it waiting, I was Push!2 
+Made it waiting, I was Pop! 4
+Match made, I was Push! 2
+Match made, I was Pop! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 8
+Made it waiting, I was Push!5 
+Match made, I was Pop! 8
+Match made, I was Push! 5
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 3
+Pop tried to meet pop! 3
+Pop tried to meet pop! 4
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 6
+Pop tried to meet pop! 1
+Match made, I was Pop! 6
+Pop tried to meet pop! 3
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 7
+Match made, I was Push! 7
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 8
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Pop tried to meet pop! 1
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 4
+Made it waiting, I was Pop! 8
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 4
+Match made, I was Pop! 8
+Match made, I was Pop! 5
+Pop tried to meet pop! 8
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 0
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 3
+Pop tried to meet pop! 4
+Match made, I was Pop! 3
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 3Made it waiting, I was Pop! Made it waiting, I was Push!1
+5 
+
+Match made, I was Pop! 3
+Pop tried to meet pop! 8
+Match made, I was Pop! 1Match made, I was Push! 
+5
+Pop tried to meet pop! 1Made it waiting, I was Push!
+3 
+Pop tried to meet pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 7
+Match made, I was Push! 3
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Match made, I was Push! 5
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 6
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Match made, I was Push! 9
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Match made, I was Push! 1
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 6
+Match made, I was Push! 7Pop tried to meet pop! 
+3
+Made it waiting, I was Push!Pop tried to meet pop! 91 
+
+Pop tried to meet pop! 0
+Pop tried to meet pop! 4
+Match made, I was Push! 9
+Made it waiting, I was Push!1Pop tried to meet pop!  
+1
+Pop tried to meet pop! 8
+Pop tried to meet pop! 6
+Match made, I was Push! 1
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 3
+Pop tried to meet pop! 4
+Pop tried to meet pop! 7
+Match made, I was Push! 4
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Match made, I was Push! 7
+Pop tried to meet pop! 4
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 3
+Pop tried to meet pop! 0
+Match made, I was Push! 5
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Match made, I was Push! 7
+Made it waiting, I was Push!3Pop tried to meet pop!  
+0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 7
+Pop tried to meet pop! 9
+Match made, I was Push! 3
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 5
+Pop tried to meet pop! 2
+Match made, I was Push! 9
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 8
+Pop tried to meet pop! 3
+Pop tried to meet pop! 5
+Match made, I was Push! 0
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Match made, I was Push! 9
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Match made, I was Push! 3
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 7
+Match made, I was Push! 0
+Pop tried to meet pop! 3Made it waiting, I was Push!
+0 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 6
+Match made, I was Push! 0
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 5
+Match made, I was Push! 7
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 8
+Match made, I was Push! 7
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 9
+Match made, I was Push! 8
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 7
+Match made, I was Push! 0
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 0
+Match made, I was Push! 8
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 1
+Pop tried to meet pop! Match made, I was Push! 0
+3
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 6
+Match made, I was Push! 3
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 3
+Match made, I was Push! 7
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Pop tried to meet pop! 3
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+2
+Match made, I was Pop! 2
+Pop tried to meet pop! 5
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 2
+Made it waiting, I was Push!0 
+Made it waiting, I was Pop! 2
+Match made, I was Push! 0
+Match made, I was Pop! 2
+Made it waiting, I was Push!4 
+Made it waiting, I was Push!6 
+Match made, I was Push! 4
+Match made, I was Push! 6
+Made it waiting, I was Pop! 4
+Made it waiting, I was Push!9 
+Match made, I was Pop! 4
+Match made, I was Push! 9
+Made it waiting, I was Pop! 1
+Made it waiting, I was Pop! 2
+Made it waiting, I was Push!3 
+Match made, I was Pop! 1
+Match made, I was Pop! 2
+Pop tried to meet pop! 1
+Match made, I was Push! 3
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Match made, I was Push! 8
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 5
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Pop! 7
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 7
+Match made, I was Pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Made it waiting, I was Push!Pop tried to meet pop! 7 
+4
+Pop tried to meet pop! 8
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0Match made, I was Push! 
+7
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 3
+Match made, I was Push! 0
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Pop tried to meet pop! 1
+Match made, I was Push! 7
+Made it waiting, I was Push!0 
+Pop tried to meet pop! Pop tried to meet pop! 93
+
+Pop tried to meet pop! 0
+Match made, I was Push! 0
+Made it waiting, I was Push!2 
+Pop tried to meet pop! Pop tried to meet pop! 6
+4
+Pop tried to meet pop! 3
+Match made, I was Push! 2
+Made it waiting, I was Push!8 
+Pop tried to meet pop! Pop tried to meet pop! 67
+
+Pop tried to meet pop! 0
+Match made, I was Push! 8
+Made it waiting, I was Push!8 
+Pop tried to meet pop! Pop tried to meet pop! 19
+
+Pop tried to meet pop! 8
+Match made, I was Push! 8
+Made it waiting, I was Push!1 
+Pop tried to meet pop! Pop tried to meet pop! 6
+Pop tried to meet pop! 8
+4
+Match made, I was Push! 1
+Pop tried to meet pop! Made it waiting, I was Push!50
+ 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Match made, I was Push! 0
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Match made, I was Push! 7
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 5
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Match made, I was Push! 9
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Pop tried to meet pop! 1
+Match made, I was Push! 7
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 9
+Pop tried to meet pop! 7
+Pop tried to meet pop! 9Match made, I was Push! 
+7
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 8
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 0Match made, I was Push! 
+8
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 2
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Match made, I was Push! 5
+Pop tried to meet pop! Made it waiting, I was Push!43 
+
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Pop tried to meet pop! 0
+Match made, I was Push! 3
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Match made, I was Push! 0
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0
+Pop tried to meet pop! Match made, I was Push! 0
+4
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 5
+Match made, I was Push! 7
+Made it waiting, I was Push!3 
+Made it waiting, I was Push!1 
+Match made, I was Push! 3
+Match made, I was Push! 1
+Pop tried to meet pop! 4
+Made it waiting, I was Push!2 
+Made it waiting, I was Pop! 0
+Match made, I was Push! 2
+Match made, I was Pop! 0
+Made it waiting, I was Push!1Pop tried to meet pop! 3
+ 
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 0Match made, I was Push! 
+1
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 8
+Match made, I was Pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Match made, I was Push! 4
+Made it waiting, I was Push!Pop tried to meet pop! 02
+ 
+Pop tried to meet pop! 4
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Match made, I was Push! 0
+Made it waiting, I was Push!4 
+Pop tried to meet pop! Pop tried to meet pop! 08
+
+Pop tried to meet pop! 4
+Match made, I was Push! 4
+Made it waiting, I was Push!2 
+Pop tried to meet pop! Pop tried to meet pop! 4
+5
+Pop tried to meet pop! 2
+Match made, I was Push! 2
+Made it waiting, I was Push!7 
+Pop tried to meet pop! Pop tried to meet pop! 5
+7
+Pop tried to meet pop! 5
+Match made, I was Push! 7
+Made it waiting, I was Push!2 
+Pop tried to meet pop! Pop tried to meet pop! 2
+8
+Pop tried to meet pop! 6
+Match made, I was Push! 2
+Made it waiting, I was Push!6 
+Pop tried to meet pop! Pop tried to meet pop! 00
+
+Pop tried to meet pop! 9
+Match made, I was Push! 6
+Made it waiting, I was Push!1 
+Pop tried to meet pop! Pop tried to meet pop! 2
+6
+Pop tried to meet pop! 9
+Pop tried to meet pop! Match made, I was Push! Pop tried to meet pop! 481Pop tried to meet pop! 
+2
+
+Made it waiting, I was Push!8 
+
+Pop tried to meet pop! 2
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Match made, I was Push! 8
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Match made, I was Push! 6
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 4
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Match made, I was Push! 9
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 2
+Pop tried to meet pop! Pop tried to meet pop! 3
+9
+Match made, I was Push! 2
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 5
+Pop tried to meet pop! Pop tried to meet pop! 7
+4
+Match made, I was Push! 6Pop tried to meet pop! 
+3
+Made it waiting, I was Push!9 
+Pop tried to meet pop! Pop tried to meet pop! 4
+4
+Pop tried to meet pop! 0
+Match made, I was Push! 9
+Made it waiting, I was Push!6 
+Pop tried to meet pop! Pop tried to meet pop! 02
+
+Pop tried to meet pop! 2
+Match made, I was Push! 6
+Pop tried to meet pop! 8
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Match made, I was Push! 4
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0
+Match made, I was Push! 9
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 5
+Pop tried to meet pop! 7
+Pop tried to meet pop! 6
+Match made, I was Push! 2
+Pop tried to meet pop! Made it waiting, I was Push!1 
+9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Match made, I was Push! 1
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 5Pop tried to meet pop! 
+1
+Pop tried to meet pop! 1
+Match made, I was Push! 6
+Made it waiting, I was Push!4 
+Pop tried to meet pop! Pop tried to meet pop! 8
+5
+Pop tried to meet pop! 7
+Match made, I was Push! 4
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 6Pop tried to meet pop! 
+9
+Pop tried to meet pop! 1
+Match made, I was Push! 6
+Made it waiting, I was Push!4 
+Pop tried to meet pop! Pop tried to meet pop! 3
+6
+Pop tried to meet pop! 7
+Match made, I was Push! 4Pop tried to meet pop! 
+6
+Pop tried to meet pop! 7Pop tried to meet pop! Made it waiting, I was Push!9
+
+6 
+Pop tried to meet pop! 0
+Pop tried to meet pop! 9Pop tried to meet pop! 
+0
+Match made, I was Push! 6
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 6
+Pop tried to meet pop! 6
+Pop tried to meet pop! 8
+Match made, I was Push! Pop tried to meet pop! 7
+7
+Made it waiting, I was Push!6 
+Pop tried to meet pop! Pop tried to meet pop! 6
+7
+Pop tried to meet pop! 5
+Match made, I was Push! 6
+Made it waiting, I was Push!3 
+Pop tried to meet pop! Pop tried to meet pop! 76
+
+Pop tried to meet pop! 9Pop tried to meet pop! 
+7Match made, I was Push! 
+3
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 7
+Match made, I was Pop! 0
+Made it waiting, I was Pop! 4
+Made it waiting, I was Push!1 
+Match made, I was Pop! 4
+Match made, I was Push! 1
+Pop tried to meet pop! 2
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Pop tried to meet pop! 0
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Push!1 
+Made it waiting, I was Push!6 
+Match made, I was Push! 1
+Match made, I was Push! 6
+Made it waiting, I was Push!5 
+Made it waiting, I was Push!3 
+Match made, I was Push! 5
+Match made, I was Push! 3
+Made it waiting, I was Pop! 5
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 5
+Match made, I was Pop! 1
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 1
+Match made, I was Pop! 8
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 3
+Match made, I was Push! 2
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 7
+Match made, I was Push! 2
+Made it waiting, I was Pop! 3
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 3
+Match made, I was Pop! 9
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 1
+Made it waiting, I was Push!5 
+Match made, I was Pop! 1
+Match made, I was Push! 5
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Push!8 
+Made it waiting, I was Push!9 
+Match made, I was Push! 8
+Match made, I was Push! 9
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 4
+Made it waiting, I was Pop! 9
+Pop tried to meet pop! 6
+Match made, I was Pop! 4
+Match made, I was Pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 5
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 4
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 1
+Match made, I was Push! 9
+Pop tried to meet pop! 7Made it waiting, I was Pop! 
+5
+Match made, I was Pop! 5
+Pop tried to meet pop! 7
+Made it waiting, I was Push!6 
+Made it waiting, I was Pop! 2
+Match made, I was Push! 6
+Match made, I was Pop! 2
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Made it waiting, I was Push!5 
+Made it waiting, I was Push!2 
+Match made, I was Push! 5
+Match made, I was Push! 2
+Made it waiting, I was Push!9 
+Made it waiting, I was Push!7 
+Match made, I was Push! 9
+Match made, I was Push! 7
+Made it waiting, I was Pop! 6
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 6
+Match made, I was Pop! 8
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Push!3 
+Made it waiting, I was Pop! 8
+Match made, I was Push! 3
+Match made, I was Pop! 8
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 0
+Match made, I was Pop! 8
+Pop tried to meet pop! 4Made it waiting, I was Pop! 
+9
+Match made, I was Pop! 9
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 9
+Pop tried to meet pop! 7Made it waiting, I was Push!
+5 
+Match made, I was Pop! 9
+Pop tried to meet pop! 1
+Match made, I was Push! 5
+Pop tried to meet pop! 3Made it waiting, I was Pop! 
+7
+Match made, I was Pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 5
+Pop tried to meet pop! 2
+Made it waiting, I was Push!1 
+Made it waiting, I was Pop! 3
+Match made, I was Push! 1
+Match made, I was Pop! 3
+Made it waiting, I was Pop! 2
+Pop tried to meet pop! 7
+Made it waiting, I was Push!3 
+Match made, I was Pop! 2
+Match made, I was Push! 3
+Pop tried to meet pop! 3
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 6
+Match made, I was Pop! 8
+Pop tried to meet pop! 1
+Pop tried to meet pop! 6
+Pop tried to meet pop! 9
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 9
+Match made, I was Push! 1
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 9
+Match made, I was Push! 0
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 6
+Pop tried to meet pop! 8
+Match made, I was Pop! 6
+Pop tried to meet pop! 2
+Made it waiting, I was Push!4 
+Made it waiting, I was Push!6 
+Match made, I was Push! 4
+Match made, I was Push! 6
+Made it waiting, I was Push!5 
+Made it waiting, I was Push!3 
+Match made, I was Push! 5
+Match made, I was Push! 3
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 1
+Made it waiting, I was Push!4 
+Made it waiting, I was Push!0 
+Set to busy, I was Pop!Made it waiting, I was Pop! 4 
+8Made it waiting, I was Pop! 
+3
+Match made, I was Push! 4
+Slot was busy!3Match made, I was Push!  
+0
+Made it waiting, I was Push!4 
+Match made, I was Pop! 8Match made, I was Pop! 
+3
+Pop tried to meet pop! 6Pop tried to meet pop! 
+1
+Slot was busy!5 
+Match made, I was Push! 4
+Made it waiting, I was Push!5 
+Pop tried to meet pop! Pop tried to meet pop! 4
+6
+Slot was busy!6 
+Match made, I was Push! 5
+Made it waiting, I was Push!9 
+Pop tried to meet pop! Pop tried to meet pop! 6
+7
+Slot was busy!5 
+Match made, I was Push! 9Pop tried to meet pop! Pop tried to meet pop! 
+4Made it waiting, I was Push!6
+
+3 
+Slot was busy!0 
+Pop tried to meet pop! Pop tried to meet pop! 0
+2
+Match made, I was Push! 3
+Made it waiting, I was Push!5 
+Slot was busy!3 
+Pop tried to meet pop! 8Pop tried to meet pop! 
+5
+Match made, I was Push! 5Slot was busy!
+0 
+Made it waiting, I was Push!5 
+Pop tried to meet pop! Pop tried to meet pop! 66
+
+Slot was busy!7 
+Match made, I was Push! 5
+Made it waiting, I was Push!3 
+Pop tried to meet pop! Pop tried to meet pop! 4
+0
+Slot was busy!8 
+Match made, I was Push! 3
+Made it waiting, I was Push!0 
+Pop tried to meet pop! Pop tried to meet pop! 8
+Slot was busy!15 
+
+Match made, I was Push! 0
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 5
+Slot was busy!1 
+Pop tried to meet pop! 1
+Match made, I was Push! 3
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 0
+Slot was busy!1 
+Pop tried to meet pop! 1
+Match made, I was Push! 4
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 5
+Slot was busy!7 
+Pop tried to meet pop! 8
+Match made, I was Push! 8
+Made it waiting, I was Push!5Pop tried to meet pop!  
+Slot was busy!Pop tried to meet pop! 610
+
+ 
+Match made, I was Push! 5
+Made it waiting, I was Push!9 
+Pop tried to meet pop! Slot was busy!Pop tried to meet pop! 12
+4
+ 
+Match made, I was Push! 9
+Made it waiting, I was Push!9 
+Pop tried to meet pop! Pop tried to meet pop! 01
+Slot was busy!
+4 
+Match made, I was Push! 9
+Made it waiting, I was Push!4 
+Pop tried to meet pop! Pop tried to meet pop! 32Slot was busy!
+
+Match made, I was Push! 4
+5 
+Made it waiting, I was Push!1Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+ 
+Match made, I was Push! 1
+Pop tried to meet pop! 6
+Made it waiting, I was Push!0 
+Made it waiting, I was Pop! 6
+Match made, I was Push! 0
+Match made, I was Pop! 6
+Pop tried to meet pop! 9
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Made it waiting, I was Pop! 4
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 4
+Match made, I was Pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 5
+Pop tried to meet pop! 3
+Pop tried to meet pop! 9
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 5
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 5
+Match made, I was Pop! 0
+Pop tried to meet pop! 9
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 7
+Match made, I was Push! 6
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Pop tried to meet pop! 8
+Pop tried to meet pop! 3
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 5
+Pop tried to meet pop! 2
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 5
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Pop tried to meet pop! 8
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 5
+Pop tried to meet pop! 1
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 8
+Match made, I was Push! 7
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 1
+Match made, I was Push! 8
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 9
+Match made, I was Push! 2
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 3
+Match made, I was Push! 8
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 9
+Match made, I was Push! 5
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 3
+Match made, I was Push! 2
+Pop tried to meet pop! 0
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 9
+Match made, I was Push! 0
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 4
+Match made, I was Push! 7
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 9
+Match made, I was Push! 4
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 9
+Match made, I was Push! 4
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 3
+Match made, I was Push! 8
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 9
+Match made, I was Push! 8
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 9
+Match made, I was Push! 1
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Match made, I was Push! 6
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 3
+Match made, I was Push! 9
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 1
+Match made, I was Push! 5
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 4
+Match made, I was Push! 1
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 7
+Match made, I was Push! 4
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 5
+Match made, I was Push! 8
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 6
+Match made, I was Push! 3
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 3
+Match made, I was Push! 5
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 3
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 8
+Pop tried to meet pop! 2
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 1
+Pop tried to meet pop! 8
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Pop tried to meet pop! 2
+Pop tried to meet pop! 4
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 9
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 1
+Match made, I was Push! 2
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 3
+Pop tried to meet pop! 6
+Match made, I was Pop! 3
+Pop tried to meet pop! 9
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 4
+Pop tried to meet pop! 8
+Match made, I was Push! 4
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 4
+Match made, I was Push! 2
+Made it waiting, I was Pop! 2
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 2
+Match made, I was Pop! 7
+Pop tried to meet pop! 7
+Pop tried to meet pop! 9
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Made it waiting, I was Push!0 
+Made it waiting, I was Push!8 
+Match made, I was Push! 0
+Match made, I was Push! 8
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 5
+Match made, I was Pop! 0
+Made it waiting, I was Push!9 
+Made it waiting, I was Pop! 0
+Match made, I was Push! 9
+Match made, I was Pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 6
+Match made, I was Pop! 8
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! Pop tried to meet pop! 48
+
+Match made, I was Pop! 4
+Pop tried to meet pop! 9
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 8
+Match made, I was Pop! 4
+Pop tried to meet pop! 6
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 9
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 9
+Match made, I was Pop! 6
+Made it waiting, I was Pop! 5
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 5
+Match made, I was Pop! 4
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Pop tried to meet pop! 1
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 2
+Pop tried to meet pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Match made, I was Pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 6
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 9
+Match made, I was Push! 8
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Pop! 1
+Pop tried to meet pop! 6
+Match made, I was Pop! 1
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 4
+Match made, I was Pop! 0
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 5
+Pop tried to meet pop! 5
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 7
+Match made, I was Push! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 4
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 3
+Match made, I was Push! 8
+Made it waiting, I was Push!0 
+Made it waiting, I was Push!8 
+Match made, I was Push! 0
+Match made, I was Push! 8
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 1
+Match made, I was Push! 9
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Pop tried to meet pop! 5
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Made it waiting, I was Push!2 
+Made it waiting, I was Pop! 6
+Match made, I was Push! 2
+Match made, I was Pop! 6
+Made it waiting, I was Push!0 
+Made it waiting, I was Push!7 
+Match made, I was Push! 0
+Made it waiting, I was Push!3 
+Match made, I was Push! 7
+Match made, I was Push! 3
+Made it waiting, I was Push!7 
+Made it waiting, I was Pop! 1
+Match made, I was Push! 7
+Match made, I was Pop! 1
+Made it waiting, I was Pop! 8
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 7
+Match made, I was Pop! 8
+Match made, I was Pop! 4
+Pop tried to meet pop! 8
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 6
+Match made, I was Push! 9
+Made it waiting, I was Pop! 3
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 3
+Match made, I was Pop! 9
+Pop tried to meet pop! 6
+Made it waiting, I was Push!9 
+Made it waiting, I was Pop! 7
+Match made, I was Push! 9
+Match made, I was Pop! 7
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Match made, I was Push! 5
+Made it waiting, I was Pop! 5
+Pop tried to meet pop! 2
+Match made, I was Pop! 5
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 3
+Match made, I was Pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 3
+Pop tried to meet pop! 7
+Match made, I was Pop! 3
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 2
+Match made, I was Push! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 8
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 4
+Match made, I was Pop! 8
+Match made, I was Push! 2
+Made it waiting, I was Push!5 
+Made it waiting, I was Pop! 4
+Match made, I was Push! 5
+Made it waiting, I was Push!Match made, I was Pop! 4
+3 
+Match made, I was Push! 3
+Pop tried to meet pop! 2
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Pop! 4
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 4
+Match made, I was Pop! 4
+Match made, I was Push! 7
+Pop tried to meet pop! 1
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 1
+Match made, I was Push! 6
+Made it waiting, I was Push!6 
+Made it waiting, I was Push!8 
+Match made, I was Push! 6
+Match made, I was Push! 8
+Made it waiting, I was Push!7 
+Made it waiting, I was Push!0 
+Match made, I was Push! 7
+Match made, I was Push! 0
+Made it waiting, I was Push!4 
+Made it waiting, I was Push!9 
+Match made, I was Push! 4
+Match made, I was Push! 9
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 6
+Made it waiting, I was Push!0 
+Match made, I was Pop! 6
+Match made, I was Push! 0
+Made it waiting, I was Pop! 2
+Pop tried to meet pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Match made, I was Push! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 8
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 4
+Made it waiting, I was Push!2 
+Match made, I was Pop! 4
+Match made, I was Push! 2
+Made it waiting, I was Push!5 
+Made it waiting, I was Push!7 
+Made it waiting, I was Pop! 2
+Match made, I was Push! 5
+Match made, I was Push! 7
+Match made, I was Pop! 2
+Made it waiting, I was Push!7 
+Made it waiting, I was Push!4 
+Match made, I was Push! 7
+Match made, I was Push! 4
+Made it waiting, I was Pop! 4
+Made it waiting, I was Pop! 0
+Made it waiting, I was Push!5 
+Match made, I was Pop! 4
+Match made, I was Pop! 0
+Match made, I was Push! 5
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 4
+Match made, I was Pop! 0
+Pop tried to meet pop! 0
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 2
+Made it waiting, I was Push!0 
+Match made, I was Push! 3
+Match made, I was Push! 0
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 6
+Match made, I was Push! 8
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 9
+Match made, I was Push! 9
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Pop tried to meet pop! 3
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 3
+Made it waiting, I was Push!1 
+Made it waiting, I was Push!2 
+Match made, I was Push! 1
+Match made, I was Push! 2
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Made it waiting, I was Pop! 7
+Made it waiting, I was Push!5 
+Set to busy, I was Pop!5 
+Match made, I was Pop! 7
+Match made, I was Push! 5
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 0
+Made it waiting, I was Push!7 
+Set to busy, I was Pop!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Slot was busy!7 
+Made it waiting, I was Push!7 
+Slot was busy!9 
+Match made, I was Push! 7
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Made it waiting, I was Push!7 
+Made it waiting, I was Pop! 8
+Match made, I was Push! 7
+Match made, I was Pop! 8
+Made it waiting, I was Pop! 2
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 2
+Match made, I was Pop! 0
+Made it waiting, I was Push!Pop tried to meet pop! 71
+ 
+Match made, I was Push! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 1
+Made it waiting, I was Push!2 
+Made it waiting, I was Push!8 
+Match made, I was Pop! 1
+Match made, I was Push! 2
+Match made, I was Push! 8
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Made it waiting, I was Push!1 
+Made it waiting, I was Push!0 
+Match made, I was Push! 1
+Match made, I was Push! 0
+Made it waiting, I was Pop! 1
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 7
+Match made, I was Pop! 1
+Match made, I was Pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 9
+Pop tried to meet pop! 3
+Match made, I was Pop! 9
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 4
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 4
+Match made, I was Pop! 8
+Pop tried to meet pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Pop tried to meet pop! 8
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Pop tried to meet pop! 8
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 7
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 7
+Pop tried to meet pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 0
+Pop tried to meet pop! 5
+Pop tried to meet pop! 2
+Pop tried to meet pop! 5
+Pop tried to meet pop! 1
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 1
+Match made, I was Push! 5
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 5
+Match made, I was Push! 1
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 9
+Match made, I was Push! 8
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 3
+Match made, I was Push! 3
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 7
+Match made, I was Push! 6
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 6
+Match made, I was Push! Pop tried to meet pop! 82
+
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 1
+Match made, I was Push! 5
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 0
+Match made, I was Push! 0
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 8
+Match made, I was Push! 0
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 8
+Match made, I was Push! 2
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 7
+Match made, I was Push! 8
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 1
+Match made, I was Push! 0
+Pop tried to meet pop! Made it waiting, I was Push!0 
+5
+Pop tried to meet pop! 8
+Match made, I was Push! 0
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 7
+Match made, I was Push! 0
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 5
+Match made, I was Push! 1
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 3
+Match made, I was Push! 1
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 9
+Match made, I was Push! 3
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 8
+Match made, I was Push! 4
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 3
+Pop tried to meet pop! 6Match made, I was Push! 
+2
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 9
+Match made, I was Push! 0
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 7
+Match made, I was Push! 0
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 2
+Match made, I was Push! 0
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 0
+Match made, I was Push! 0
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 4
+Match made, I was Push! 0
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 8
+Match made, I was Push! 0
+Pop tried to meet pop! 1Made it waiting, I was Push!
+1 
+Pop tried to meet pop! 9
+Match made, I was Push! 1
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 9
+Match made, I was Push! 3
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Pop tried to meet pop! 4
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Pop! 5
+Made it waiting, I was Push!9 
+Match made, I was Pop! 5
+Match made, I was Push! 9
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!8 
+Made it waiting, I was Push!5 
+Match made, I was Push! 8
+Match made, I was Push! 5
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 0
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 2
+Pop tried to meet pop! 8
+Match made, I was Pop! 2
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 7
+Match made, I was Push! 5
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 5
+Match made, I was Push! 2
+Pop tried to meet pop! 7
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 5
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Pop tried to meet pop! 0
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Made it waiting, I was Push!0 
+Made it waiting, I was Pop! 3
+Match made, I was Push! 0
+Match made, I was Pop! 3
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 7
+Match made, I was Push! 7
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Pop! 5
+Pop tried to meet pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 8
+Pop tried to meet pop! 1
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Pop tried to meet pop! 5
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Pop tried to meet pop! 0
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 5
+Made it waiting, I was Push!0 
+Match made, I was Pop! 5
+Match made, I was Push! 0
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 6
+Pop tried to meet pop! 8
+Match made, I was Pop! 6
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Made it waiting, I was Push!5Pop tried to meet pop!  
+4
+Match made, I was Push! 5
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 5
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 9
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 7
+Match made, I was Push! 6
+Match made, I was Pop! 7
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 1
+Made it waiting, I was Push!6 
+Match made, I was Pop! 1
+Match made, I was Push! 6
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Push!Pop tried to meet pop! 4 
+1
+Match made, I was Push! 4
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 7
+Match made, I was Push! 9
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Pop tried to meet pop! 7
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 9
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 5
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Pop tried to meet pop! 6
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Pop! 1
+Made it waiting, I was Push!7 
+Match made, I was Pop! 1
+Pop tried to meet pop! 5
+Match made, I was Push! 7
+Made it waiting, I was Push!5 
+Made it waiting, I was Push!6 
+Match made, I was Push! 5
+Match made, I was Push! 6
+Made it waiting, I was Push!3Made it waiting, I was Push!0 
+ 
+Match made, I was Push! 3Match made, I was Push! 
+0
+Made it waiting, I was Push!2 
+Made it waiting, I was Pop! 5
+Match made, I was Push! 2
+Match made, I was Pop! 5
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 8
+Match made, I was Push! 9
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!3 
+Made it waiting, I was Push!8 
+Match made, I was Push! 3
+Match made, I was Push! 8
+Made it waiting, I was Push!6 
+Made it waiting, I was Pop! 1
+Match made, I was Push! 6
+Match made, I was Pop! 1
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 4
+Match made, I was Push! 1
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 9
+Match made, I was Pop! 0
+Made it waiting, I was Pop! 6
+Pop tried to meet pop! 8
+Match made, I was Pop! 6
+Pop tried to meet pop! 2
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 4
+Match made, I was Push! 6
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! Pop tried to meet pop! 2
+3
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 4
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Made it waiting, I was Pop! 2
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 2
+Match made, I was Pop! 1
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 8
+Match made, I was Pop! 8
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 8
+Match made, I was Push! 7
+Match made, I was Pop! 8
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Made it waiting, I was Pop! 2
+Pop tried to meet pop! 6
+Match made, I was Pop! 2
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 3
+Match made, I was Push! 8
+Pop tried to meet pop! 6
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Made it waiting, I was Pop! 7
+Made it waiting, I was Push!1 
+Match made, I was Pop! 7
+Match made, I was Push! 1
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 9
+Match made, I was Pop! 0
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 7
+Match made, I was Push! 4
+Made it waiting, I was Pop! 3
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 3
+Match made, I was Pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 2
+Pop tried to meet pop! 5
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 5
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 1
+Pop tried to meet pop! 6
+Pop tried to meet pop! 1
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Pop tried to meet pop! 2
+Pop tried to meet pop! 4
+Pop tried to meet pop! 3
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 6
+Match made, I was Push! 9
+Made it waiting, I was Pop! 4
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 7
+Match made, I was Pop! 4
+Match made, I was Push! 6
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 6
+Match made, I was Pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Made it waiting, I was Push!6 
+Made it waiting, I was Pop! 7
+Match made, I was Push! 6
+Match made, I was Pop! 7
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! Pop tried to meet pop! 5
+2
+Pop tried to meet pop! 6
+Pop tried to meet pop! Match made, I was Pop! 75
+
+Pop tried to meet pop! 4
+Pop tried to meet pop! 7
+Pop tried to meet pop! Pop tried to meet pop! 1
+Pop tried to meet pop! 8
+1
+Pop tried to meet pop! 0
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! Made it waiting, I was Push!09
+ 
+Pop tried to meet pop! 5
+Match made, I was Pop! 0
+Match made, I was Push! 9Pop tried to meet pop! 
+7
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Match made, I was Push! 0
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 6
+Pop tried to meet pop! 2
+Match made, I was Push! 0
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Match made, I was Push! 5
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Match made, I was Push! 4
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0Match made, I was Push! 
+3
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Match made, I was Push! Pop tried to meet pop! 6
+7Made it waiting, I was Push!
+5 
+Pop tried to meet pop! 9
+Pop tried to meet pop! 0
+Match made, I was Push! 5
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Match made, I was Push! 6
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Match made, I was Push! 4
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Match made, I was Push! 0
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Match made, I was Push! 4
+Pop tried to meet pop! Made it waiting, I was Push!00
+ 
+Pop tried to meet pop! 8
+Pop tried to meet pop! 2
+Pop tried to meet pop! 5
+Match made, I was Push! 0
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Match made, I was Push! 6
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Match made, I was Push! 3
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 4
+Pop tried to meet pop! 1
+Match made, I was Push! 2
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 6
+Pop tried to meet pop! 8
+Match made, I was Push! 3
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 3
+Pop tried to meet pop! 5
+Match made, I was Push! 6
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Match made, I was Push! 3
+Pop tried to meet pop! 6
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Match made, I was Push! 8
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 4
+Pop tried to meet pop! 8
+Match made, I was Push! 2
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 3
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Match made, I was Push! 2
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Match made, I was Push! 7
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Match made, I was Push! 8
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 0
+Match made, I was Push! 5
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 1
+Match made, I was Push! 8
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 5
+Pop tried to meet pop! 5
+Match made, I was Push! 6
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 8
+Pop tried to meet pop! 9
+Match made, I was Push! 8
+Pop tried to meet pop! 9
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Made it waiting, I was Pop! 7
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 7
+Match made, I was Pop! 0
+Pop tried to meet pop! 1Pop tried to meet pop! 
+1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 7
+Match made, I was Push! 8
+Made it waiting, I was Push!3 
+Made it waiting, I was Pop! 0
+Match made, I was Push! 3
+Match made, I was Pop! 0
+Made it waiting, I was Push!6 
+Set to busy, I was Pop!6 
+Made it waiting, I was Push!1 
+Match made, I was Push! 6
+Match made, I was Push! 1
+Made it waiting, I was Push!8 
+Made it waiting, I was Pop! 2
+Match made, I was Push! 8
+Match made, I was Pop! 2
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 5
+Slot was busy!4 
+Match made, I was Pop! 5
+Pop tried to meet pop! 3
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! Slot was busy!85
+ 
+Match made, I was Push! 9
+Pop tried to meet pop! 1Pop tried to meet pop! 
+8
+Slot was busy!5 
+Match made, I was Pop! 8
+Pop tried to meet pop! 2
+Pop tried to meet pop! Pop tried to meet pop! 90
+
+Slot was busy!7 
+Pop tried to meet pop! 6
+Pop tried to meet pop! Pop tried to meet pop! 00
+
+Slot was busy!7 
+Pop tried to meet pop! 3
+Pop tried to meet pop! Slot was busy!02
+ 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Slot was busy!1 
+Pop tried to meet pop! Pop tried to meet pop! 3
+3
+Pop tried to meet pop! 7
+Slot was busy!6 
+Pop tried to meet pop! Pop tried to meet pop! 3
+9
+Pop tried to meet pop! 6
+Slot was busy!9 
+Pop tried to meet pop! Pop tried to meet pop! 59
+
+Pop tried to meet pop! 8
+Slot was busy!1 
+Pop tried to meet pop! Pop tried to meet pop! 5
+7
+Pop tried to meet pop! 3
+Slot was busy!8 
+Pop tried to meet pop! Pop tried to meet pop! 0
+Pop tried to meet pop! 77
+Slot was busy!
+3 
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! Slot was busy!55
+ 
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Slot was busy!Pop tried to meet pop! 93
+ 
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! Slot was busy!6
+4 
+Pop tried to meet pop! 1Pop tried to meet pop! 
+5
+Pop tried to meet pop! Slot was busy!07
+ 
+Pop tried to meet pop! Pop tried to meet pop! 66
+
+Pop tried to meet pop! Slot was busy!8
+1 
+Pop tried to meet pop! Pop tried to meet pop! 6
+8
+Pop tried to meet pop! Slot was busy!2
+5 
+Pop tried to meet pop! Pop tried to meet pop! 3
+7
+Pop tried to meet pop! Slot was busy!3
+5 
+Pop tried to meet pop! Pop tried to meet pop! 1
+5
+Pop tried to meet pop! 8Slot was busy!
+1 
+Pop tried to meet pop! 7Pop tried to meet pop! 
+6
+Pop tried to meet pop! Slot was busy!82
+ 
+Pop tried to meet pop! Pop tried to meet pop! 4
+7
+Slot was busy!Pop tried to meet pop! 7 
+3
+Pop tried to meet pop! 3Pop tried to meet pop! 
+3
+Pop tried to meet pop! Slot was busy!7
+7 
+Pop tried to meet pop! Pop tried to meet pop! 8
+9
+Pop tried to meet pop! Slot was busy!64 
+
+Pop tried to meet pop! Pop tried to meet pop! 64
+
+Pop tried to meet pop! Slot was busy!5
+4 
+Pop tried to meet pop! Pop tried to meet pop! 2Pop tried to meet pop! Slot was busy!90
+
+
+7 
+Pop tried to meet pop! 7
+Slot was busy!5 
+Pop tried to meet pop! 4
+Slot was busy!4 
+Made it waiting, I was Pop! 6
+Pop tried to meet pop! 5
+Slot was busy!6 
+Match made, I was Pop! 6
+Pop tried to meet pop! 5
+Slot was busy!1 
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Pop tried to meet pop! 6
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Pop tried to meet pop! 9
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Pop tried to meet pop! 6
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 1
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Pop tried to meet pop! 9
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 0
+Match made, I was Push! 8
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Pop tried to meet pop! 8
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!0 
+Made it waiting, I was Push!5 
+Match made, I was Push! 0
+Match made, I was Push! 5
+Made it waiting, I was Push!1 
+Made it waiting, I was Pop! 3
+Match made, I was Push! 1
+Match made, I was Pop! 3
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 0
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 3
+Match made, I was Push! 7
+Made it waiting, I was Pop! 6
+Pop tried to meet pop! 4
+Match made, I was Pop! 6
+Pop tried to meet pop! 3
+Pop tried to meet pop! 3
+Pop tried to meet pop! 8
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 7
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 9
+Made it waiting, I was Pop! 6
+Pop tried to meet pop! 4
+Match made, I was Pop! 9
+Match made, I was Pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!0 
+Made it waiting, I was Pop! 5
+Match made, I was Push! 0
+Match made, I was Pop! 5
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 1
+Pop tried to meet pop! 0
+Match made, I was Pop! 1
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 5
+Match made, I was Push! 4
+Pop tried to meet pop! 2
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 3
+Match made, I was Push! 4
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 5
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 5
+Match made, I was Pop! 4
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 8
+Match made, I was Push! 3
+Made it waiting, I was Push!6 
+Made it waiting, I was Pop! 3
+Match made, I was Push! 6
+Match made, I was Pop! 3
+Made it waiting, I was Pop! 7
+Made it waiting, I was Push!1 
+Match made, I was Pop! 7
+Match made, I was Push! 1
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Pop tried to meet pop! 0
+Made it waiting, I was Push!8 
+Set to busy, I was Pop!8 
+Match made, I was Push! 8
+Made it waiting, I was Push!5 
+Pop tried to meet pop! 6
+Match made, I was Push! 5
+Slot was busy!4 
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 3
+Slot was busy!7 
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 2
+Slot was busy!8 
+Match made, I was Push! 2
+Made it waiting, I was Push!2 
+Made it waiting, I was Pop! 6
+Match made, I was Push! 2
+Match made, I was Pop! 6
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!1 
+Made it waiting, I was Pop! 6
+Match made, I was Push! 1
+Match made, I was Pop! 6
+Made it waiting, I was Pop! 0
+Made it waiting, I was Push!8 
+Match made, I was Pop! 0
+Match made, I was Push! 8
+Made it waiting, I was Pop! 9
+Pop tried to meet pop! 2
+Match made, I was Pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 8
+Made it waiting, I was Push!Pop tried to meet pop! 98
+ 
+Match made, I was Push! 9
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 7
+Match made, I was Push! 9
+Made it waiting, I was Pop! 6
+Made it waiting, I was Push!4 
+Match made, I was Pop! 6
+Match made, I was Push! 4
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 5
+Pop tried to meet pop! 7
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Pop! Pop tried to meet pop! 51
+
+Match made, I was Pop! 5
+Pop tried to meet pop! 1
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 0
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 0
+Pop tried to meet pop! 8
+Pop tried to meet pop! Made it waiting, I was Push!15 
+
+Pop tried to meet pop! 4
+Match made, I was Push! 5
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Pop! 4
+Made it waiting, I was Push!1 
+Match made, I was Pop! 4
+Match made, I was Push! 1
+Made it waiting, I was Pop! 3
+Made it waiting, I was Pop! 0
+Made it waiting, I was Push!7 
+Match made, I was Pop! 3
+Match made, I was Pop! 0
+Match made, I was Push! 7
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 6
+Made it waiting, I was Push!1 
+Made it waiting, I was Push!0 
+Made it waiting, I was Push!8 
+Match made, I was Push! 1
+Match made, I was Push! 0
+Match made, I was Push! 8
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Push!4 
+Made it waiting, I was Pop! 3
+Match made, I was Push! 4
+Match made, I was Pop! 3
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 5
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Pop tried to meet pop! 8
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 9
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 9
+Match made, I was Pop! 0
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 1
+Pop tried to meet pop! 6
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Made it waiting, I was Push!7 
+Made it waiting, I was Push!4 
+Made it waiting, I was Pop! 9
+Match made, I was Push! 7
+Match made, I was Push! 4
+Match made, I was Pop! 9
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Made it waiting, I was Pop! 9Pop tried to meet pop! 
+0
+Match made, I was Pop! 9
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 1
+Pop tried to meet pop! 1
+Match made, I was Pop! 1
+Pop tried to meet pop! Made it waiting, I was Push!78
+ 
+Match made, I was Push! 8
+Made it waiting, I was Pop! 2
+Pop tried to meet pop! 8
+Match made, I was Pop! 2
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 4
+Made it waiting, I was Push!1 
+Match made, I was Pop! 8
+Match made, I was Push! 1
+Made it waiting, I was Push!5 
+Made it waiting, I was Push!1 
+Match made, I was Push! 5
+Match made, I was Push! 1
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Pop tried to meet pop! 0
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Pop! 5
+Pop tried to meet pop! 6
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 6
+Pop tried to meet pop! 4
+Match made, I was Pop! 6
+Pop tried to meet pop! 2
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Pop tried to meet pop! 5
+Pop tried to meet pop! 1
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Pop tried to meet pop! 0
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Pop! 3
+Made it waiting, I was Push!0 
+Match made, I was Pop! 3
+Match made, I was Push! 0
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 2
+Made it waiting, I was Push!7 
+Made it waiting, I was Pop! 5
+Match made, I was Push! 7
+Match made, I was Pop! 5
+Pop tried to meet pop! 2
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Push!9 
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 7
+Match made, I was Push! 9
+Match made, I was Pop! 0
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 0
+Made it waiting, I was Push!6 
+Match made, I was Pop! 0
+Pop tried to meet pop! 7
+Match made, I was Push! 6
+Pop tried to meet pop! 8
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 0
+Match made, I was Pop! 4
+Pop tried to meet pop! 1
+Made it waiting, I was Push!9 
+Pop tried to meet pop! Pop tried to meet pop! 18
+
+Match made, I was Push! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 7
+Pop tried to meet pop! 9
+Pop tried to meet pop! 7
+Match made, I was Pop! 7
+Made it waiting, I was Pop! 1
+Pop tried to meet pop! 4
+Match made, I was Pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! Pop tried to meet pop! 84
+
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!3 
+Made it waiting, I was Push!9 
+Match made, I was Push! 3
+Match made, I was Push! 9
+Made it waiting, I was Pop! 8
+Made it waiting, I was Pop! 3
+Made it waiting, I was Push!6 
+Match made, I was Pop! 8
+Match made, I was Pop! 3
+Match made, I was Push! 6
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Match made, I was Push! 0
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Pop tried to meet pop! 4
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Match made, I was Push! 4
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 0
+Match made, I was Pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 8
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Push!1 
+Made it waiting, I was Push!6 
+Match made, I was Push! 1
+Made it waiting, I was Push!9 
+Match made, I was Push! 6
+Match made, I was Push! 9
+Made it waiting, I was Push!Made it waiting, I was Pop! 09 
+
+Match made, I was Push! 0
+Match made, I was Pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 3
+Made it waiting, I was Push!9 
+Set to busy, I was Pop!9 
+Slot was busy!9 
+Match made, I was Push! 9
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 9
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Pop! 8
+Made it waiting, I was Push!2 
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 8
+Match made, I was Push! 2
+Match made, I was Pop! 0
+Made it waiting, I was Pop! 4
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 4
+Match made, I was Pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Pop! 8
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 8
+Match made, I was Pop! 9
+Pop tried to meet pop! 9
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!1Made it waiting, I was Push! 
+9 
+Match made, I was Push! Match made, I was Push! 1
+9
+Made it waiting, I was Pop! 8
+Made it waiting, I was Push!5 
+Made it waiting, I was Push!7 
+Match made, I was Pop! 8
+Match made, I was Push! 5
+Match made, I was Push! 7
+Made it waiting, I was Pop! 3
+Made it waiting, I was Push!5 
+Match made, I was Pop! 3
+Match made, I was Push! 5
+Made it waiting, I was Push!4 
+Made it waiting, I was Push!9 
+Match made, I was Push! 4
+Match made, I was Push! 9
+Made it waiting, I was Push!8 
+Made it waiting, I was Pop! 4
+Made it waiting, I was Pop! 9
+Match made, I was Push! 8
+Match made, I was Pop! 4
+Match made, I was Pop! 9
+Pop tried to meet pop! 3
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Pop! 9
+Pop tried to meet pop! 4
+Match made, I was Pop! 9
+Pop tried to meet pop! 8
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 3
+Match made, I was Push! 9
+Match made, I was Pop! 3
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Pop tried to meet pop! Made it waiting, I was Push!55
+ 
+Pop tried to meet pop! 3
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Match made, I was Push! 5
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Match made, I was Push! 7
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0
+Match made, I was Push! 3
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 6
+Match made, I was Push! 7
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 8Pop tried to meet pop! 
+1
+Pop tried to meet pop! 3
+Match made, I was Push! 3
+Made it waiting, I was Push!4 
+Pop tried to meet pop! Pop tried to meet pop! 1
+4
+Pop tried to meet pop! 8
+Match made, I was Push! 4
+Pop tried to meet pop! Pop tried to meet pop! 6Made it waiting, I was Push!Pop tried to meet pop! 5
+
+7 
+8
+Pop tried to meet pop! 1
+Pop tried to meet pop! 9
+Match made, I was Push! 7
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 8
+Pop tried to meet pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Match made, I was Push! 3
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Match made, I was Push! 2
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 8
+Pop tried to meet pop! 4
+Pop tried to meet pop! Match made, I was Push! 1
+1
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Pop tried to meet pop! 7
+Made it waiting, I was Push!9 
+Made it waiting, I was Push!4 
+Match made, I was Push! 9
+Match made, I was Push! 4
+Made it waiting, I was Pop! Made it waiting, I was Push!08
+ 
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 0
+Match made, I was Push! 8
+Match made, I was Pop! 7
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Made it waiting, I was Pop! 2
+Made it waiting, I was Push!8 
+Match made, I was Pop! 2
+Match made, I was Push! 8
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Pop tried to meet pop! 8
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!6 
+Made it waiting, I was Pop! 3
+Match made, I was Push! 6
+Match made, I was Pop! 3
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 6
+Match made, I was Pop! 8
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Pop tried to meet pop! 8
+Made it waiting, I was Push!3 
+Made it waiting, I was Push!8 
+Match made, I was Push! 3
+Match made, I was Push! 8
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Made it waiting, I was Pop! 8
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 8
+Match made, I was Pop! 0
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 4
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 7
+Pop tried to meet pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 1
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 3
+Pop tried to meet pop! 8
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Pop tried to meet pop! 3
+Pop tried to meet pop! 5
+Pop tried to meet pop! 7
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Pop tried to meet pop! 4
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 6
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Pop tried to meet pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 9
+Pop tried to meet pop! 3
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Pop tried to meet pop! 4
+Pop tried to meet pop! 7
+Pop tried to meet pop! 6
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 2
+Match made, I was Push! 7
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Pop tried to meet pop! 2
+Pop tried to meet pop! 5
+Made it waiting, I was Push!4 
+Made it waiting, I was Push!0 
+Match made, I was Push! 4
+Match made, I was Push! 0
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Made it waiting, I was Push!3 
+Made it waiting, I was Push!5 
+Match made, I was Push! 3
+Match made, I was Push! 5
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 5
+Made it waiting, I was Push!4 
+Match made, I was Pop! 5
+Match made, I was Push! 4
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Pop tried to meet pop! 6
+Pop tried to meet pop! 1
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Pop tried to meet pop! 1
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 8
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 9
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 7
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 0
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 9
+Made it waiting, I was Push!0 
+Match made, I was Push! 9
+Match made, I was Push! 0
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 4
+Match made, I was Push! 3
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 5
+Match made, I was Pop! 8
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 8
+Made it waiting, I was Push!7 
+Match made, I was Pop! 8
+Match made, I was Push! 7
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 1
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 1
+Match made, I was Pop! 4
+Made it waiting, I was Push!8 
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 6
+Match made, I was Push! 8
+Match made, I was Push! 0
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 6
+Match made, I was Push! 3
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 7
+Made it waiting, I was Push!7 
+Match made, I was Pop! 4
+Match made, I was Push! 7
+Pop tried to meet pop! 2
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Made it waiting, I was Push!7 
+Made it waiting, I was Pop! 6
+Match made, I was Push! 7
+Match made, I was Pop! 6
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 4
+Made it waiting, I was Push!6 
+Match made, I was Pop! 4
+Match made, I was Push! 6
+Made it waiting, I was Push!Made it waiting, I was Push!39 
+ 
+Match made, I was Push! Match made, I was Push! 93
+
+Made it waiting, I was Pop! 6
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 6
+Match made, I was Pop! 2
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 1
+Match made, I was Pop! 0
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Pop tried to meet pop! 6
+Pop tried to meet pop! 1
+Pop tried to meet pop! 8
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 1
+Match made, I was Push! 1
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!1 
+Made it waiting, I was Push!5 
+Match made, I was Push! 1
+Match made, I was Push! 5
+Made it waiting, I was Push!1 
+Made it waiting, I was Push!6 
+Match made, I was Push! 1
+Match made, I was Push! 6
+Made it waiting, I was Push!6 
+Made it waiting, I was Push!5 
+Match made, I was Push! 6
+Match made, I was Push! 5
+Made it waiting, I was Push!9 
+Made it waiting, I was Push!7 
+Match made, I was Push! 9
+Match made, I was Push! 7
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 2
+Pop tried to meet pop! 7
+Match made, I was Pop! 2
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Push!3 
+Made it waiting, I was Push!8 
+Pop tried to meet pop! 9
+Match made, I was Push! 3
+Match made, I was Push! 8
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 9
+Made it waiting, I was Push!Set to busy, I was Pop!22 
+ 
+Made it waiting, I was Pop! 4
+Match made, I was Push! 2
+Slot was busy!2 
+Match made, I was Pop! 4
+Pop tried to meet pop! 5
+Slot was busy!1 
+Pop tried to meet pop! 9
+Slot was busy!2 
+Pop tried to meet pop! 2
+Slot was busy!6 
+Pop tried to meet pop! 1
+Slot was busy!0 
+Pop tried to meet pop! 1
+Slot was busy!0 
+Pop tried to meet pop! 8
+Slot was busy!2 
+Pop tried to meet pop! 6
+Slot was busy!3 
+Pop tried to meet pop! 6
+Slot was busy!5 
+Pop tried to meet pop! 9
+Slot was busy!3 
+Pop tried to meet pop! 3
+Slot was busy!0 
+Pop tried to meet pop! 6
+Slot was busy!8 
+Pop tried to meet pop! 5
+Slot was busy!6 
+Pop tried to meet pop! 9
+Slot was busy!2 
+Pop tried to meet pop! 5
+Slot was busy!1 
+Pop tried to meet pop! 6
+Slot was busy!0 
+Pop tried to meet pop! 4
+Slot was busy!3 
+Pop tried to meet pop! 1
+Slot was busy!5 
+Pop tried to meet pop! 5
+Slot was busy!3 
+Pop tried to meet pop! 3
+Slot was busy!6 
+Pop tried to meet pop! 5
+Slot was busy!4 
+Pop tried to meet pop! 9
+Slot was busy!3 
+Pop tried to meet pop! 8
+Slot was busy!5 
+Pop tried to meet pop! 8
+Slot was busy!6 
+Pop tried to meet pop! 0
+Slot was busy!7 
+Pop tried to meet pop! 9
+Slot was busy!5 
+Pop tried to meet pop! 7
+Slot was busy!6 
+Pop tried to meet pop! 3
+Slot was busy!3 
+Pop tried to meet pop! 2
+Slot was busy!4 
+Pop tried to meet pop! 7
+Slot was busy!8 
+Pop tried to meet pop! 5
+Slot was busy!3 
+Pop tried to meet pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 3
+Pop tried to meet pop! Pop tried to meet pop! 4
+1
+Pop tried to meet pop! 8
+Pop tried to meet pop! 9
+Pop tried to meet pop! 0
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 8
+Pop tried to meet pop! 1
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 7
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 3
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 5
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 4
+Pop tried to meet pop! 5
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Pop tried to meet pop! 7
+Pop tried to meet pop! 3
+Pop tried to meet pop! 2
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Pop tried to meet pop! 1
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Pop tried to meet pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 5
+Match made, I was Push! 7
+Pop tried to meet pop! 7
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 5
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Pop tried to meet pop! 1
+Pop tried to meet pop! 2
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 5
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Pop! 9
+Made it waiting, I was Push!2 
+Match made, I was Pop! 9
+Match made, I was Push! 2
+Made it waiting, I was Push!9 
+Made it waiting, I was Pop! 5
+Match made, I was Push! 9
+Match made, I was Pop! 5
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!6 
+Match made, I was Push! 6
+Made it waiting, I was Push!8 
+Match made, I was Push! 8
+Made it waiting, I was Pop! 0
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 0
+Match made, I was Pop! 5
+Made it waiting, I was Push!6 
+Made it waiting, I was Push!5 
+Match made, I was Push! 6
+Match made, I was Push! Made it waiting, I was Pop! 50
+
+Match made, I was Pop! 0
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Made it waiting, I was Pop! Pop tried to meet pop! 5
+4
+Match made, I was Pop! 5
+Pop tried to meet pop! 0
+Made it waiting, I was Push!2 
+Match made, I was Push! 2
+Made it waiting, I was Pop! Made it waiting, I was Push!57
+ 
+Match made, I was Push! 7
+Match made, I was Pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Push!6Made it waiting, I was Pop!  
+1
+Match made, I was Push! Match made, I was Pop! 61
+
+Made it waiting, I was Push!1 
+Made it waiting, I was Pop! 7
+Match made, I was Push! 1
+Match made, I was Pop! 7
+Made it waiting, I was Pop! 8
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 6
+Match made, I was Pop! 8
+Match made, I was Pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 7
+Pop tried to meet pop! 1
+Match made, I was Pop! 7
+Made it waiting, I was Push!9 
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 0
+Match made, I was Push! 9
+Match made, I was Push! 7
+Made it waiting, I was Pop! 6
+Made it waiting, I was Pop! 2
+Pop tried to meet pop! 6
+Match made, I was Pop! 6
+Match made, I was Pop! 2
+Pop tried to meet pop! 7
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 4
+Match made, I was Push! 6
+Made it waiting, I was Push!3 
+Made it waiting, I was Push!1 
+Match made, I was Push! 3
+Match made, I was Push! 1
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Pop! 8
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 8
+Match made, I was Pop! 3
+Pop tried to meet pop! 8
+Pop tried to meet pop! 1
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 2
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 2
+Pop tried to meet pop! 5
+Pop tried to meet pop! 4
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 4
+Pop tried to meet pop! 7
+Match made, I was Pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 6
+Pop tried to meet pop! 8
+Match made, I was Pop! 6
+Pop tried to meet pop! 7
+Made it waiting, I was Push!Pop tried to meet pop! 6 
+8
+Match made, I was Push! 6
+Pop tried to meet pop! 2
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 8
+Match made, I was Push! 0
+Made it waiting, I was Push!1 
+Made it waiting, I was Pop! 8
+Match made, I was Push! 1
+Match made, I was Pop! 8
+Made it waiting, I was Pop! Made it waiting, I was Pop! 54
+
+Match made, I was Pop! Match made, I was Pop! 54
+
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 0
+Match made, I was Push! 9
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 2
+Match made, I was Push! 0
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 9
+Pop tried to meet pop! 9
+Match made, I was Pop! 9
+Made it waiting, I was Pop! 7
+Pop tried to meet pop! 2
+Made it waiting, I was Pop! 0
+Match made, I was Pop! 7
+Match made, I was Pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 7
+Pop tried to meet pop! 5
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 6
+Match made, I was Push! 6
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 0
+Pop tried to meet pop! 4
+Pop tried to meet pop! 9
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Made it waiting, I was Push!8 
+Made it waiting, I was Pop! 1
+Match made, I was Push! 8
+Match made, I was Pop! 1
+Pop tried to meet pop! 0
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 8
+Match made, I was Push! 2
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 9
+Pop tried to meet pop! 1
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 3
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 1
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 8
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Push!2 
+Made it waiting, I was Pop! 9
+Made it waiting, I was Pop! 7
+Match made, I was Push! 2
+Match made, I was Pop! 9
+Match made, I was Pop! 7
+Pop tried to meet pop! 1
+Pop tried to meet pop! 9
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Pop tried to meet pop! 7
+Pop tried to meet pop! 0
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 6
+Match made, I was Push! 2
+Made it waiting, I was Push!Pop tried to meet pop! 52
+ 
+Match made, I was Push! 2
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 0
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 6
+Made it waiting, I was Push!5 
+Match made, I was Push! 5
+Made it waiting, I was Push!6 
+Made it waiting, I was Push!5 
+Made it waiting, I was Push!2 
+Match made, I was Push! 6
+Match made, I was Push! 5
+Match made, I was Push! 2
+Made it waiting, I was Push!7 
+Match made, I was Push! 7
+Made it waiting, I was Push!4 
+Match made, I was Push! 4
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 7
+Match made, I was Push! 4
+Made it waiting, I was Push!3 
+Made it waiting, I was Pop! 2
+Match made, I was Push! 3
+Match made, I was Pop! 2
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 0
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 2
+Pop tried to meet pop! 0
+Pop tried to meet pop! 0
+Pop tried to meet pop! 6
+Pop tried to meet pop! 1
+Pop tried to meet pop! 0
+Pop tried to meet pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 5
+Pop tried to meet pop! 1
+Pop tried to meet pop! 8
+Pop tried to meet pop! 6
+Pop tried to meet pop! 5
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Pop tried to meet pop! 9
+Pop tried to meet pop! 7
+Pop tried to meet pop! 1
+Pop tried to meet pop! 2
+Pop tried to meet pop! 9
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Pop tried to meet pop! 7
+Pop tried to meet pop! 2
+Pop tried to meet pop! 3
+Pop tried to meet pop! 4
+Pop tried to meet pop! 2
+Made it waiting, I was Push!4 
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 4
+Match made, I was Push! 4
+Made it waiting, I was Push!7 
+Match made, I was Push! Pop tried to meet pop! 02
+
+Made it waiting, I was Push!3 
+Match made, I was Push! 7
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 1
+Match made, I was Push! 3
+Made it waiting, I was Push!4 
+Pop tried to meet pop! 9
+Match made, I was Push! 6
+Made it waiting, I was Push!1 
+Match made, I was Push! 4
+Made it waiting, I was Push!7 
+Pop tried to meet pop! 0
+Match made, I was Push! 1
+Set to busy, I was Pop!7 
+Made it waiting, I was Push!3 
+Match made, I was Push! 7
+Slot was busy!2 
+Pop tried to meet pop! 8
+Match made, I was Push! 3
+Made it waiting, I was Push!Slot was busy!95 
+ 
+Pop tried to meet pop! 5
+Slot was busy!4 
+Match made, I was Push! 9
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 4
+Slot was busy!6 
+Match made, I was Push! 9
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 8
+Slot was busy!8 
+Pop tried to meet pop! 5
+Match made, I was Push! 3
+Made it waiting, I was Push!1 
+Slot was busy!1 
+Pop tried to meet pop! 2
+Match made, I was Push! 1
+Made it waiting, I was Push!4 
+Slot was busy!1 
+Pop tried to meet pop! 5
+Match made, I was Push! 4
+Made it waiting, I was Push!0 
+Slot was busy!5 
+Pop tried to meet pop! 2
+Match made, I was Push! 0
+Made it waiting, I was Push!Slot was busy!8 
+3 
+Pop tried to meet pop! 1
+Slot was busy!8Match made, I was Push!  
+8
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 0
+Slot was busy!3 
+Match made, I was Push! 3
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 2
+Slot was busy!4 
+Pop tried to meet pop! 1Match made, I was Push! 
+6
+Made it waiting, I was Push!1 
+Slot was busy!4 
+Pop tried to meet pop! 4
+Match made, I was Push! 1
+Made it waiting, I was Push!7 
+Slot was busy!9 
+Pop tried to meet pop! 8
+Match made, I was Push! 7
+Made it waiting, I was Push!6 
+Slot was busy!0 
+Pop tried to meet pop! 6
+Slot was busy!Match made, I was Push! 26
+ 
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 8
+Slot was busy!9 
+Match made, I was Push! 1
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 9
+Slot was busy!6 
+Match made, I was Push! 6
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 4
+Slot was busy!1 
+Pop tried to meet pop! 9Match made, I was Push! 2
+
+Made it waiting, I was Push!4 
+Slot was busy!7 
+Pop tried to meet pop! 2
+Match made, I was Push! 4
+Made it waiting, I was Push!9 
+Slot was busy!2 
+Pop tried to meet pop! 7
+Pop tried to meet pop! 8
+Match made, I was Push! 9
+Made it waiting, I was Push!Slot was busy!68 
+ 
+Pop tried to meet pop! 8
+Slot was busy!7 
+Match made, I was Push! 6
+Made it waiting, I was Push!4Pop tried to meet pop!  
+9
+Pop tried to meet pop! 5
+Slot was busy!2 
+Match made, I was Push! 4
+Made it waiting, I was Push!3 
+Pop tried to meet pop! 6
+Slot was busy!0 
+Pop tried to meet pop! 3
+Match made, I was Push! 3
+Made it waiting, I was Push!0 
+Slot was busy!1 
+Match made, I was Push! 0
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 9
+Match made, I was Pop! 0
+Slot was busy!8 
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Slot was busy!3 
+Made it waiting, I was Pop! 4
+Slot was busy!4 
+Pop tried to meet pop! 9
+Match made, I was Pop! 4
+Pop tried to meet pop! 4
+Pop tried to meet pop! 8
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 4
+Match made, I was Pop! 4
+Pop tried to meet pop! 5
+Made it waiting, I was Push!9 
+Match made, I was Push! 9
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Made it waiting, I was Pop! 8
+Match made, I was Pop! 8
+Pop tried to meet pop! 3
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 2
+Match made, I was Pop! 2
+Pop tried to meet pop! 6
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 4
+Match made, I was Push! 9
+Pop tried to meet pop! 5
+Pop tried to meet pop! 8
+Pop tried to meet pop! 9
+Pop tried to meet pop! 0
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Made it waiting, I was Push!6 
+Made it waiting, I was Pop! 9
+Match made, I was Push! 6
+Match made, I was Pop! 9
+Made it waiting, I was Push!1 
+Pop tried to meet pop! 5
+Match made, I was Push! 1
+Made it waiting, I was Pop! 1
+Match made, I was Pop! 1
+Made it waiting, I was Push!2 
+Pop tried to meet pop! 0
+Match made, I was Push! 2
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Made it waiting, I was Pop! 7
+Match made, I was Pop! 7
+Pop tried to meet pop! 1
+Pop tried to meet pop! 3
+Pop tried to meet pop! 0
+Pop tried to meet pop! 2
+Made it waiting, I was Push!2 
+Made it waiting, I was Push!3 
+Match made, I was Push! 2
+Match made, I was Push! 3
+Made it waiting, I was Push!1 
+Match made, I was Push! 1
+Made it waiting, I was Pop! 2
+Pop tried to meet pop! 8
+Match made, I was Pop! 2
+Made it waiting, I was Push!0 
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 8
+Match made, I was Push! 0
+Match made, I was Push! 6
+Made it waiting, I was Pop! 0
+Made it waiting, I was Pop! 3
+Made it waiting, I was Push!7 
+Match made, I was Pop! 0
+Match made, I was Pop! 3
+Match made, I was Push! 7
+Pop tried to meet pop! 1
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Pop tried to meet pop! 6
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Pop tried to meet pop! 3
+Made it waiting, I was Pop! 0
+Pop tried to meet pop! 5
+Match made, I was Pop! 0
+Pop tried to meet pop! 0
+Made it waiting, I was Push!3 
+Made it waiting, I was Pop! 6
+Match made, I was Push! 3
+Match made, I was Pop! 6
+Made it waiting, I was Push!0 
+Pop tried to meet pop! 0
+Match made, I was Push! 0
+Made it waiting, I was Pop! 2
+Pop tried to meet pop! 8
+Match made, I was Pop! 2
+Made it waiting, I was Pop! 3
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 3
+Match made, I was Pop! 5
+Made it waiting, I was Push!9 
+Pop tried to meet pop! 0
+Match made, I was Push! 9
+Pop tried to meet pop! 9
+Pop tried to meet pop! 4
+Made it waiting, I was Push!Pop tried to meet pop! 27 
+
+Match made, I was Push! 2
+Made it waiting, I was Pop! 6
+Match made, I was Pop! 6
+Pop tried to meet pop! 7
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 5
+Pop tried to meet pop! 1
+Pop tried to meet pop! 9
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Made it waiting, I was Push!0 
+Match made, I was Push! 0
+Made it waiting, I was Push!3 
+Match made, I was Push! 3
+Made it waiting, I was Pop! 8
+Made it waiting, I was Pop! 5
+Match made, I was Pop! 8
+Match made, I was Pop! 5
+Made it waiting, I was Push!6 
+Pop tried to meet pop! 3
+Match made, I was Push! 6
+Made it waiting, I was Push!6 
+Pop tried to meet pop! Made it waiting, I was Push!1
+2 
+Match made, I was Push! 6
+Made it waiting, I was Pop! 8
+Match made, I was Push! 2
+Match made, I was Pop! 8
+Pop tried to meet pop! 4
+Made it waiting, I was Pop! 3
+Match made, I was Pop! 3
+Made it waiting, I was Pop! 8
+Pop tried to meet pop! 8
+Match made, I was Pop! 8
+Made it waiting, I was Pop! 9
+Match made, I was Pop! 9
+Pop tried to meet pop! 8
+Pop tried to meet pop! 9
+Made it waiting, I was Pop! 4
+Match made, I

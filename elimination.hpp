@@ -38,7 +38,7 @@ class Exchanger
    slot readslot, newslot;
    newslot.data = value;
    while(loops<timeout){
-     readslot = myslot.load(std::memory_order_relaxed);
+     readslot = myslot.load(std::memory_order_seq_cst);
      switch(readslot.status){
        case EMPTY:
        //PUSH gets EMPTY
@@ -48,22 +48,26 @@ class Exchanger
            if(myslot.compare_exchange_strong(readslot,newslot)){
            //The myslot is now in PUSH_WAITING
              std::cout<<"Made it waiting, I was Push!"<<mynumber<<" \n";
-             while(loops<2*timeout){
-               readslot = myslot.load(std::memory_order_relaxed);
+             int loops1=0;
+             while(loops1<2*timeout){
+               readslot = myslot.load(std::memory_order_seq_cst);
                if(readslot.status == BUSY){
-                 std::cout<<"Match made, I was Push! "<<mynumber<<"\n";
+                 std::cout<<"Match made, I was Push normal! "<<mynumber<<"\n";
                  retval = ELMSUCCESS;
                  break;
                }
-               loops++;
+               loops1++;
              }
              newslot.status = EMPTY;
-             if(!myslot.compare_exchange_strong(readslot,newslot)){
+             while(!myslot.compare_exchange_strong(readslot,newslot)){
                //This happens when after timeout we read a BUSY, so now we got ELMSUCCESS
-               retval = ELMSUCCESS;
-               myslot.compare_exchange_strong(readslot,newslot);
-               std::cout<<"Match made, I was Push! "<<mynumber<<"\n";
+               if(readslot.status == BUSY){
+                 retval = ELMSUCCESS;
+                 myslot.compare_exchange_strong(readslot,newslot);
+                 std::cout<<"Match made, I was Push weird! "<<mynumber<<" "<<readslot.status<<"\n";
+               }
              }
+             std::cout<<"Empty, I was Push! "<<mynumber<<"\n";
              return retval;             
            }
          }
@@ -73,22 +77,26 @@ class Exchanger
            if(myslot.compare_exchange_strong(readslot,newslot)){
            //The myslot is now in POP_WAITING
              std::cout<<"Made it waiting, I was Pop! "<<mynumber<<"\n";
-             while(loops<2*timeout){
-               readslot = myslot.load(std::memory_order_relaxed);
+             int loops1=0;
+             while(loops1<2*timeout){
+               readslot = myslot.load(std::memory_order_seq_cst);
                if(readslot.status == BUSY){
-                 std::cout<<"Match made, I was Pop!"<<mynumber<<" \n";
+                 std::cout<<"Match made, I was Pop normal!"<<mynumber<<" \n";
                  retval = readslot.data;
                  break;
                }
-               loops++;
+               loops1++;
              }
              newslot.status = EMPTY;
-             if(!myslot.compare_exchange_strong(readslot,newslot)){
+             while(!myslot.compare_exchange_strong(readslot,newslot)){
                //This happens when after timeout we read a BUSY, so now we got ELMSUCCESS
-               retval = readslot.data;
-               myslot.compare_exchange_strong(readslot,newslot);
-               std::cout<<"Match made, I was Pop! "<<mynumber<<"\n";
+                 if(readslot.status == BUSY){
+                 retval = readslot.data;
+                 myslot.compare_exchange_strong(readslot,newslot);
+                 std::cout<<"Match made, I was Pop weird! "<<mynumber<<"\n";
+                 }
              }
+             std::cout<<"Empty, I was Pop! "<<mynumber<<"\n";
              return retval;             
            }          
         }

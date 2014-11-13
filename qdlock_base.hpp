@@ -607,6 +607,9 @@ class qdlock_base {
 		};
 		null_lock n;
 		//-> typename std::conditional<std::is_same<std::nullptr_t, typename Promise::promise>::value, void, typename Promise::future>::type
+		static int setresult(int value){
+		  return value;
+		}
 		template<typename Function, Function f, typename Promise, typename RSync, typename... Ps>
 		auto delegate(Promise&& result, Ps&&... ps)
 		-> void
@@ -633,7 +636,11 @@ class qdlock_base {
 						//std::cout << "Queue Full "<< fullcount<< " \n";
 						unpack_params(&ispush, &value, 0, std::forward<Ps>(ps)...);
 						//std::cout<<"ispush: "<<ispush<<"value :"<<value<<"\n";
-						ElArray->visit(ispush,value,1000);
+						int *myresult;
+						*myresult = ElArray->visit(ispush,value,1000);
+						if(*myresult!=0){
+						  execute<decltype(setresult), setresult, Promise, Ps...>(std::move(result), *myresult);
+						}
 						
 					}
 					

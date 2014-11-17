@@ -48,6 +48,10 @@ retval cs(int push, int val, int *isElim, int *elimVal) {
 
 void cs_finish() {
 	retval myreturn;
+	auto end_time = std::chrono::high_resolution_clock::now();
+	auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
+
+	std::cout << "time needed: " << duration.count() << " ms" << std::endl;
 	do{
         int *isElim = new int;
         int *elimVal = new int;
@@ -55,9 +59,5 @@ void cs_finish() {
         *elimVal = 0;
 		myreturn = cs(0,0,isElim,elimVal);
 	} while(!myreturn.isempty);
-	auto end_time = std::chrono::high_resolution_clock::now();
-	auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
-
-	std::cout << "time needed: " << duration.count() << " ms" << std::endl;
 }
 

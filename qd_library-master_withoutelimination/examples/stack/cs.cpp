@@ -43,12 +43,12 @@ retval cs(int push, int val) {
 
 void cs_finish() {
 	retval myreturn;
-	do{
-		myreturn = cs(0,0);
-	} while(!myreturn.isempty);
 	auto end_time = std::chrono::high_resolution_clock::now();
 	auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
 
 	std::cout << "time needed: " << duration.count() << " ms" << std::endl;
+	do{
+		myreturn = cs(0,0);
+	} while(!myreturn.isempty);
 }
 

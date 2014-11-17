@@ -665,7 +665,7 @@ class qdlock_base {
 	public:
 		void initArray(int capacity){
 		  ElArray = new EliminationArray(capacity);
-		  std::cout<<"capacity: "<<capacity<<"Elaray"<<ElArray->capacity<<"\n";
+		  //std::cout<<"capacity: "<<capacity<<"Elaray"<<ElArray->capacity<<"\n";
 		}
 
 };

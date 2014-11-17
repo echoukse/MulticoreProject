@@ -5,15 +5,17 @@
 #include "qd.hpp"
 
 static qdlock lock;
+static int pushpercent, iterations;
 
 void call_cs() {
-	int *push, *val;
+	int *push, *val, myrand;
 	retval myreturn;
 	push = new int;
 	val = new int;
-	for(int i = 0; i < 1000000/THREADS; i++) {
+	for(int i = 0; i < iterations/THREADS; i++) {
 		/* DELEGATE_F waits for a result */
-		if(i%2==0){
+		myrand = rand()%100;
+		if(myrand<pushpercent){
 			
 			*push = 1;
 			*val = i;
@@ -28,10 +30,7 @@ void call_cs() {
 				//std::cout << myreturn.value<<"\n";
 			//returned_value.wait();
 		}
-		if(i%10000){
-			//std::cout << ".";
-			fflush(stdout);
-		}
+
 	}
 }
 
@@ -41,7 +40,17 @@ void call_cs() {
 void empty() {
 }
 
-int main() {
+int main(int argc, char* argv[]) {
+	if(argc!=4){
+		std::cout<<"Usage: <out filename> <Elimination array length> <Push percentage> <Number of iterations>";
+		exit(0);
+	}
+	
+	
+	int elimarray_len = atoi(argv[1]);
+	pushpercent = atoi(argv[2]);
+	iterations = atoi(argv[3]);
+	
 	std::cout << THREADS << " threads / QD locking\n";
 	cs_init();
 	std::array<std::thread, THREADS> ts;

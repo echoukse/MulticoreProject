@@ -1,63 +1,124 @@
 CXX=clang++
 CXX=clang++
 CXXFLAGS=-O2 -std=c++11 -I../../
-LDFLAGS=-O2 -std=c++11 -pthreads
+LDFLAGS=-O2 -std=c++11 -pthreads -latomic
 
-qd_comparison: counter_pthreads5 counter_std5 counter_qd1 counter_qd5 counter_pthreads50 counter_std50 counter_qd50 counter_pthreads500 counter_std500 counter_qd500
+qd_comparison: counter_pthreads5 counter_std5 counter_qd1 counter_qd2 counter_qd5 counter_pthreads50 counter_std50 counter_qd50 counter_pthreads500 counter_std500 counter_qd500
 
 atomic: counter_atomic5 counter_atomic50 counter_atomic500
 
 all: qd_comparison atomic
-%_1.o: %.cpp
-	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=1
 
-%_5.o: %.cpp
-	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=5
 
-%_50.o: %.cpp
-	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=50
+%_1_128.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=1 -DDELEGATIONQLEN=128	
 
-%_500.o: %.cpp
-	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=500
+%_2_128.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=2 -DDELEGATIONQLEN=128
 
+%_4_128.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=4 -DDELEGATIONQLEN=128
+
+%_8_128.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=8 -DDELEGATIONQLEN=128
+
+
+%_1_256.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=1 -DDELEGATIONQLEN=256	
+
+%_2_256.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=2 -DDELEGATIONQLEN=256
+
+%_4_256.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=4 -DDELEGATIONQLEN=256
+
+%_8_256.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=8 -DDELEGATIONQLEN=256
+
+
+%_1_512.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=1 -DDELEGATIONQLEN=512	
+
+%_2_512.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=2 -DDELEGATIONQLEN=512
+
+%_4_512.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=4 -DDELEGATIONQLEN=512
+
+%_8_512.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=8 -DDELEGATIONQLEN=512
+
+
+%_1_1024.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=1 -DDELEGATIONQLEN=1024	
+
+%_2_1024.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=2 -DDELEGATIONQLEN=1024
+
+%_4_1024.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=4 -DDELEGATIONQLEN=1024
+
+%_8_1024.o: %.cpp
+	$(CXX) -c -o $@ $< $(CXXFLAGS) -DTHREADS=8 -DDELEGATIONQLEN=1024
+	
+	
 %.o: %.cpp
 	$(CXX) -c -o $@ $< $(CXXFLAGS)
 
-counter_qd1: counter_qd_1.o cs.o
+counter_qd1_128: counter_qd_1_128.o cs.o
 	$(CXX) -o $@ $^ $(LDFLAGS)
 
-counter_pthreads5: counter_pthreads_5.o cs.o
-	$(CXX) -o $@ $^ $(LDFLAGS)
-counter_std5: counter_std_5.o cs.o
-	$(CXX) -o $@ $^ $(LDFLAGS)
-counter_qd5: counter_qd_5.o cs.o
+counter_qd2_128: counter_qd_2_128.o cs.o
 	$(CXX) -o $@ $^ $(LDFLAGS)
 
-counter_pthreads50: counter_pthreads_50.o cs.o
-	$(CXX) -o $@ $^ $(LDFLAGS)
-counter_std50: counter_std_50.o cs.o
-	$(CXX) -o $@ $^ $(LDFLAGS)
-counter_qd50: counter_qd_50.o cs.o
+counter_qd4_128: counter_qd_4_128.o cs.o
 	$(CXX) -o $@ $^ $(LDFLAGS)
 
-counter_pthreads500: counter_pthreads_500.o cs.o
-	$(CXX) -o $@ $^ $(LDFLAGS)
-counter_std500: counter_std_500.o cs.o
-	$(CXX) -o $@ $^ $(LDFLAGS)
-counter_qd500: counter_qd_500.o cs.o
+counter_qd8_128: counter_qd_8_128.o cs.o
 	$(CXX) -o $@ $^ $(LDFLAGS)
 
-counter_atomic5: counter_atomic_5.o cs_atomic.o
-	$(CXX) -o $@ $^ $(LDFLAGS)
-counter_atomic50: counter_atomic_50.o cs_atomic.o
-	$(CXX) -o $@ $^ $(LDFLAGS)
-counter_atomic500: counter_atomic_500.o cs_atomic.o
+
+counter_qd1_256: counter_qd_1_256.o cs.o
 	$(CXX) -o $@ $^ $(LDFLAGS)
 
+counter_qd2_256: counter_qd_2_256.o cs.o
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+counter_qd4_256: counter_qd_4_256.o cs.o
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+counter_qd8_256: counter_qd_8_256.o cs.o
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+
+counter_qd1_512: counter_qd_1_512.o cs.o
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+counter_qd2_512: counter_qd_2_512.o cs.o
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+counter_qd4_512: counter_qd_4_512.o cs.o
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+counter_qd8_512: counter_qd_8_512.o cs.o
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+
+counter_qd1_1024: counter_qd_1_1024.o cs.o
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+counter_qd2_1024: counter_qd_2_1024.o cs.o
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+counter_qd4_1024: counter_qd_4_1024.o cs.o
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+counter_qd8_1024: counter_qd_8_1024.o cs.o
+	$(CXX) -o $@ $^ $(LDFLAGS)
 
 clean:
-	-@rm counter_pthreads5 counter_pthreads50 counter_pthreads500 \
-		counter_std5 counter_std50 counter_std500 \
-		counter_qd1 counter_qd5 counter_qd50 counter_qd500 \
-		counter_atomic5 counter_atomic50 counter_atomic500 \
-		*.o 2>/dev/null || true
+	-@rm counter_qd1_128 counter_qd2_128 counter_qd4_128 counter_qd8_128 \
+	counter_qd1_256 counter_qd2_256 counter_qd4_256 counter_qd8_256 \
+	counter_qd1_512 counter_qd2_512 counter_qd4_512 counter_qd8_512 \
+	counter_qd1_1024 counter_qd2_1024 counter_qd4_1024 counter_qd8_1024 \
+	*.o 2>/dev/null || true

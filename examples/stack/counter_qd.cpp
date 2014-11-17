@@ -55,7 +55,7 @@ void empty() {
 
 int main() {
 	std::cout << THREADS << " threads / QD locking\n";
-	lock.initArray(10);
+	lock.initArray(3);
 	cs_init();
 	std::array<std::thread, THREADS> ts;
 	for(auto& t : ts) {

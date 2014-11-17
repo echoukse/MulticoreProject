@@ -21,7 +21,7 @@ class unpack_promise : public Promise<R> {
 		unpack_promise(unpack_promise&) = delete; /* not possible */
 		unpack_promise(unpack_promise&&) = delete; /* actually implementable, TODO for now */
 };
-void unpack_params(int *isPush, int *val, int *isElim, int *elimVal, int arg1, ...)
+void unpack_params(int *isPush, int *val, int **isElim, int **elimVal, int arg1, ...)
 {
   va_list ap;
   int i;
@@ -29,8 +29,8 @@ void unpack_params(int *isPush, int *val, int *isElim, int *elimVal, int arg1, .
   va_start(ap, arg1);
   *isPush =  va_arg(ap, int);
   *val  = va_arg(ap, int);
-  isElim  = va_arg(ap, int*);
-  elimVal  = va_arg(ap, int*);
+  *isElim  = va_arg(ap, int*);
+  *elimVal  = va_arg(ap, int*);
   
   va_end(ap);
 }
@@ -636,7 +636,7 @@ class qdlock_base {
 						}
 						
 						//std::cout << "Queue Full "<< fullcount<< " \n";
-						unpack_params(&ispush, &value, isElim, elimVal, 0, std::forward<Ps>(ps)...);
+						unpack_params(&ispush, &value, &isElim, &elimVal, 0, std::forward<Ps>(ps)...);
 						//std::cout<<"ispush: "<<ispush<<"value :"<<value<<"\n";
                         int *zero = new int;
                         int *one = new int;

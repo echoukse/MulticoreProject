@@ -38,7 +38,7 @@ public class WarmUpRandomTest {
     }
 
     static class TestThread extends Thread {
-        private SortedList<Integer> list;
+        private Stack<Integer> list;
         private int numSinOp;
         private byte[] warmUpOps;
         private int[] warmUpVals;
@@ -47,7 +47,7 @@ public class WarmUpRandomTest {
         private CyclicBarrier warmUpBarrier;
         private CyclicBarrier expBarrier;
 
-        public TestThread(SortedList<Integer> list, int numSinOp,
+        public TestThread(Stack<Integer> list, int numSinOp,
                 byte[] warmUpOps, int[] warmUpVals, byte[] expOps,
                 int[] expVals, CyclicBarrier warmUpBarrier,
                 CyclicBarrier expBarrier) {
@@ -108,16 +108,20 @@ public class WarmUpRandomTest {
     }
 
     public static void main (String[] args) {
-        int listInitSize = Integer.parseInt(args[0]); // SortedList init size
-        int numSinOp = Integer.parseInt(args[1]); // # of ops outside CS
-        int numIteration = Integer.parseInt(args[2]); // Total # ops
-        int numThread = Integer.parseInt(args[4]);
-        float insertPercent = Float.parseFloat(args[5]) / 100.0f;
-        float removePercent = Float.parseFloat(args[6]) / 100.0f;
-        int keyCeiling = Integer.parseInt(args[7]); // Highest value to use for inserting
+        int listInitSize = 0; // Stack init size
+        int numSinOp = 0; // # of ops outside CS
+        int numIteration = Integer.parseInt(args[0]); // Total # ops
+        int numThread = Integer.parseInt(args[1]);
+        float insertPercent = Float.parseFloat(args[2]) / 100.0f;
+        float removePercent = Float.parseFloat(args[3]) / 100.0f;
+        int keyCeiling = Integer.MAX_VALUE; // Highest value to use for inserting
 
-        SortedList<Integer> list = null;
-        list = new ActiveSortedList<Integer>();
+        Stack<Integer> list = null;
+        if(args.length > 4) {
+            list = new ActiveStack<Integer>(Integer.parseInt(args[4]));
+        } else {
+            list = new ActiveStack<Integer>();
+        }
 
         // list init 
         int[] vals = RandomGeneratorUtil.generateVals(primes[24], listInitSize,

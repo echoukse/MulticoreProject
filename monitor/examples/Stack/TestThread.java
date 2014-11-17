@@ -6,12 +6,12 @@ import ActiveMonitor.ActiveTask;
 
 
 public class TestThread extends Thread {
-    SortedList<Integer> list;
+    Stack<Integer> list;
     int size;
     int numListOp;
     int numSinOp;
     int numIteration;
-    public TestThread(SortedList<Integer> list, int size, int numListOp, 
+    public TestThread(Stack<Integer> list, int size, int numListOp, 
             int numSinOp, int numIteration) {
         this.list = list;                                                   
         this.numListOp = numListOp;                               

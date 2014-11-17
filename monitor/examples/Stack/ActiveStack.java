@@ -5,14 +5,20 @@ import java.util.LinkedList;
 import ActiveMonitor.*;
 import util.Common;
 
-public class ActiveSortedList<T extends Comparable<T>> extends SortedList<T> {
+public class ActiveStack<T extends Comparable<T>> extends Stack<T> {
     LinkedList<T> list = new LinkedList<T>();
     private final MonitorThreadPool executor;
     private final SafeTaskManager manager;
 
-    public ActiveSortedList() {
+    public ActiveStack() {
         executor = MonitorThreadPool.getInstance();
-        manager = new SafeTaskManager(128);
+        manager = new SafeTaskManager(256);
+        executor.registerTaskManager(this, manager);
+    }
+
+    public ActiveStack(int stackSize) {
+        executor = MonitorThreadPool.getInstance();
+        manager = new SafeTaskManager(stackSize);
         executor.registerTaskManager(this, manager);
     }
     
@@ -20,7 +26,6 @@ public class ActiveSortedList<T extends Comparable<T>> extends SortedList<T> {
         ActiveTask<Object> worker = new ActiveTask<Object>() {
             public Object call() {
                 list.push(val);
-                //System.out.println("Insert val: " + val + " to this list");
                 return null;
             }
         };
@@ -36,7 +41,6 @@ public class ActiveSortedList<T extends Comparable<T>> extends SortedList<T> {
                 if(list.size() > 0) {
                     list.pop();
                 }
-                //System.out.println("remove val: " + val);
                 return null;
             }
         };

@@ -47,12 +47,12 @@ class Exchanger
            newslot.status = PUSH_WAITING;
            if(myslot.compare_exchange_strong(readslot,newslot)){
            //The myslot is now in PUSH_WAITING
-             std::cout<<"Made it waiting, I was Push!"<<mynumber<<" \n";
+             //std::cout<<"Made it waiting, I was Push!"<<mynumber<<" \n";
              int loops1=0;
              while(loops1<2*timeout){
                readslot = myslot.load(std::memory_order_seq_cst);
                if(readslot.status == BUSY){
-                 std::cout<<"Match made, I was Push normal! "<<mynumber<<"\n";
+                 //std::cout<<"Match made, I was Push normal! "<<mynumber<<"\n";
                  retval = ELMSUCCESS;
                  break;
                }
@@ -64,10 +64,10 @@ class Exchanger
                if(readslot.status == BUSY){
                  retval = ELMSUCCESS;
                  myslot.compare_exchange_strong(readslot,newslot);
-                 std::cout<<"Match made, I was Push weird! "<<mynumber<<" "<<readslot.status<<"\n";
+                 //std::cout<<"Match made, I was Push weird! "<<mynumber<<" "<<readslot.status<<"\n";
                }
              }
-             std::cout<<"Empty, I was Push! "<<mynumber<<"\n";
+             //std::cout<<"Empty, I was Push! "<<mynumber<<"\n";
              return retval;             
            }
          }
@@ -76,12 +76,12 @@ class Exchanger
            newslot.status = POP_WAITING;
            if(myslot.compare_exchange_strong(readslot,newslot)){
            //The myslot is now in POP_WAITING
-             std::cout<<"Made it waiting, I was Pop! "<<mynumber<<"\n";
+             //std::cout<<"Made it waiting, I was Pop! "<<mynumber<<"\n";
              int loops1=0;
              while(loops1<2*timeout){
                readslot = myslot.load(std::memory_order_seq_cst);
                if(readslot.status == BUSY){
-                 std::cout<<"Match made, I was Pop normal!"<<mynumber<<" \n";
+                 //std::cout<<"Match made, I was Pop normal!"<<mynumber<<" \n";
                  retval = readslot.data;
                  break;
                }
@@ -93,10 +93,10 @@ class Exchanger
                  if(readslot.status == BUSY){
                  retval = readslot.data;
                  myslot.compare_exchange_strong(readslot,newslot);
-                 std::cout<<"Match made, I was Pop weird! "<<mynumber<<"\n";
+                 //std::cout<<"Match made, I was Pop weird! "<<mynumber<<"\n";
                  }
              }
-             std::cout<<"Empty, I was Pop! "<<mynumber<<"\n";
+             //std::cout<<"Empty, I was Pop! "<<mynumber<<"\n";
              return retval;             
            }          
         }
@@ -104,13 +104,13 @@ class Exchanger
       case PUSH_WAITING:
         if(isPush){
           if(loops == 1)
-            std::cout<<"Push tried to meet push!"<<mynumber<<" \n";
+            //std::cout<<"Push tried to meet push!"<<mynumber<<" \n";
           continue;
           }
         else{
           newslot.status = BUSY;
           if(myslot.compare_exchange_strong(readslot,newslot)){
-            std::cout<<"Set to busy, I was Pop!"<<mynumber<<" \n";
+            //std::cout<<"Set to busy, I was Pop!"<<mynumber<<" \n";
             return readslot.data;
           }
         }
@@ -120,18 +120,18 @@ class Exchanger
           newslot.status = BUSY;
           
           if(myslot.compare_exchange_strong(readslot,newslot)){
-            std::cout<<"Set to busy, I was Push! "<<mynumber<<"\n";
+            //std::cout<<"Set to busy, I was Push! "<<mynumber<<"\n";
             return ELMSUCCESS;
           }
         }
         else{
-          if(loops == 1)
-            std::cout<<"Pop tried to meet pop! "<<mynumber<<"\n";
+          //if(loops == 1)
+            //std::cout<<"Pop tried to meet pop! "<<mynumber<<"\n";
         }
         break;
       case BUSY:
-        if(loops == 1)
-          std::cout<<"Slot was busy!"<<mynumber<<" \n";
+        //if(loops == 1)
+          //std::cout<<"Slot was busy!"<<mynumber<<" \n";
         break;
       default: 
         break;      

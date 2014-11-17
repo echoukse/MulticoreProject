@@ -645,10 +645,10 @@ class qdlock_base {
                         *one = 1;
 						*myresult = ElArray->visit(ispush,value,1000);
 						if(*myresult!=0){
-                            std::cout << "Detected val: " << *myresult << "\n";
+                            //std::cout << "Detected val: " << *myresult << "\n";
                             *isElim = 1;
                             *elimVal = *myresult;
-                            std::cout << "HERE match3\n";
+                            //std::cout << "HERE match3\n";
                             execute<Function, f, Promise, Ps...>(std::move(result), std::forward<Ps>(ps)...);
                             return;
                             //execute<Function, f, Promise, Ps...>(std::move(result), (Ps) *zero, (Ps) *zero, (Ps) *myresult, (Ps) *one);

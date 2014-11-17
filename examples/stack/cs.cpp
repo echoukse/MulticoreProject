@@ -20,8 +20,6 @@ void cs_init() {
 retval cs(int push, int val, int *isElim, int *elimVal) {
 	retval return_struct;
     if(*isElim) {
-        std::cout << "HERE cs\n";
-        std::cout << "val passed: " << *elimVal << "\n";
         return_struct.isempty = 0;
         return_struct.value = *elimVal;
     } else {
@@ -60,6 +58,5 @@ void cs_finish() {
 	auto end_time = std::chrono::high_resolution_clock::now();
 	auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
 
-	std::cout << "time needed: " << duration.count() << " ms" << std::endl;
 }
 

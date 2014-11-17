@@ -8,23 +8,34 @@
 static qdlock lock;
 
 void call_cs() {
-	int *push, *val;
+	int *push, *val, **isElim, **elimVal;
 	retval myreturn;
 	push = new int;
 	val = new int;
-	for(int i = 0; i < 100000000/THREADS; i++) {
+	isElim = new int*;
+	elimVal = new int*;
+	*isElim = new int;
+	*elimVal = new int;
+	//for(int i = 0; i < 100000000/THREADS; i++) {
+	for(int i = 0; i < 1000000/THREADS; i++) {
 		/* DELEGATE_F waits for a result */
 		if(i%2==0){
 			
 			*push = 1;
 			*val = i;
-			lock.DELEGATE_F(cs,*push,*val);			
+            **isElim = 0;
+            **elimVal = 0;
+			lock.DELEGATE_F(cs,*push,*val,*isElim,*elimVal);
 		}
 		else{
 			*push = 0;
 			*val = 0;
-			auto returned_value = lock.DELEGATE_F(cs,*push,*val);			
+            **isElim = 0;
+            **elimVal = 0;
+            //std::cout << "HERE\n";
+			auto returned_value = lock.DELEGATE_F(cs,*push,*val,*isElim,*elimVal);
 			myreturn = returned_value.get();
+            //std::cout << "val passed: " << myreturn.value << "\n";
 			//if(i<10)
 			//	std::cout << myreturn.value<<"\n";
 			//returned_value.wait();

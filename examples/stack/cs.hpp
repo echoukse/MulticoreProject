@@ -11,7 +11,7 @@ int value;
 int isempty;
 } retval;
 void cs_init();
-retval cs(int push, int val);
+retval cs(int push, int val, int *isElim, int *elimVal);
 void cs_finish();
 
 #endif // cs_hpp

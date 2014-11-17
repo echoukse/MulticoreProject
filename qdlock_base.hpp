@@ -21,7 +21,7 @@ class unpack_promise : public Promise<R> {
 		unpack_promise(unpack_promise&) = delete; /* not possible */
 		unpack_promise(unpack_promise&&) = delete; /* actually implementable, TODO for now */
 };
-void unpack_params(int *isPush, int *val, int arg1, ...)
+void unpack_params(int *isPush, int *val, int *isElim, int *elimVal, int arg1, ...)
 {
   va_list ap;
   int i;
@@ -29,6 +29,8 @@ void unpack_params(int *isPush, int *val, int arg1, ...)
   va_start(ap, arg1);
   *isPush =  va_arg(ap, int);
   *val  = va_arg(ap, int);
+  isElim  = va_arg(ap, int*);
+  elimVal  = va_arg(ap, int*);
   
   va_end(ap);
 }
@@ -614,7 +616,7 @@ class qdlock_base {
 		auto delegate(Promise&& result, Ps&&... ps)
 		-> void
 		{
-			int ispush, value;
+			int ispush, value, *isElim, *elimVal;
 			RSync::wait_writers(this);
 			while(true) {
 				for(int cnt = 0; cnt < 32; cnt++) {
@@ -634,12 +636,23 @@ class qdlock_base {
 						}
 						
 						//std::cout << "Queue Full "<< fullcount<< " \n";
-						unpack_params(&ispush, &value, 0, std::forward<Ps>(ps)...);
+						unpack_params(&ispush, &value, isElim, elimVal, 0, std::forward<Ps>(ps)...);
 						//std::cout<<"ispush: "<<ispush<<"value :"<<value<<"\n";
-						int *myresult;
+                        int *zero = new int;
+                        int *one = new int;
+                        int *myresult = new int;
+                        *zero = 0;
+                        *one = 1;
 						*myresult = ElArray->visit(ispush,value,1000);
 						if(*myresult!=0){
-						  execute<decltype(setresult), setresult, Promise, Ps...>(std::move(result), *myresult);
+                            std::cout << "Detected val: " << *myresult << "\n";
+                            *isElim = 1;
+                            *elimVal = *myresult;
+                            std::cout << "HERE match3\n";
+                            execute<Function, f, Promise, Ps...>(std::move(result), std::forward<Ps>(ps)...);
+                            return;
+                            //execute<Function, f, Promise, Ps...>(std::move(result), (Ps) *zero, (Ps) *zero, (Ps) *myresult, (Ps) *one);
+						  //execute<decltype(setresult), setresult, Promise, Ps...>(std::move(result), *myresult);
 						}
 						
 					}

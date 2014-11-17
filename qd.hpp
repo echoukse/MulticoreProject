@@ -18,6 +18,7 @@ using qdlock = qdlock_impl<tatas_lock, buffer_queue<65536>>;
 using mrqdlock = mrqdlock_impl<tatas_lock, buffer_queue<16384>, reader_groups<64>, 65536>;
 using qd_condition_variable = qd_condition_variable_impl<mutex_lock, simple_locked_queue>;
 
+#define DELEGATE_C(function1, function2, ...) template delegate_c<decltype(function1), function, decltype(function2), function2>(__VA_ARGS__)
 #define DELEGATE_F(function, ...) template delegate_f<decltype(function), function>(__VA_ARGS__)
 #define DELEGATE_N(function, ...) template delegate_n<decltype(function), function>(__VA_ARGS__)
 #define DELEGATE_P(function, ...) template delegate_p<decltype(function), function>(__VA_ARGS__)

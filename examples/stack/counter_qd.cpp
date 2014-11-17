@@ -8,7 +8,7 @@
 #include <atomic>
 
 static qdlock lock;
-static int pushpercent;
+static int pushpercent, iterations;
 
 void call_cs() {
 	int *push, *val, **isElim, **elimVal, myrand;
@@ -21,7 +21,7 @@ void call_cs() {
 	*elimVal = new int;
 	srand (time(NULL));
 	//for(int i = 0; i < 100000000/THREADS; i++) {
-	for(int i = 0; i < 1000000/THREADS; i++) {
+	for(int i = 0; i < iterations/THREADS; i++) {
 		/* DELEGATE_F waits for a result */
 		myrand = rand()%100;
 		if(myrand<pushpercent){
@@ -59,13 +59,14 @@ void empty() {
 }
 
 int main(int argc, char* argv[]) {
-	if(argc!=3){
-		std::cout<<"Usage: <out filename> <Elimination array length> <Push percentage>";
+	if(argc!=4){
+		std::cout<<"Usage: <out filename> <Elimination array length> <Push percentage> <Number of iterations>";
 		exit(0);
 	}
 	
 	int elimarray_len = atoi(argv[1]);
 	pushpercent = atoi(argv[2]);
+	iterations = atoi(argv[3]);
 	
 	std::cout << THREADS << " threads / QD locking\n";
 	lock.initArray(elimarray_len);

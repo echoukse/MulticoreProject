@@ -1,0 +1,50 @@
+<project name="ActiveMonitor" default="dist" basedir=".">
+
+  <property name="project_name" value="ActiveMonitor"/>
+  <property name="src" location="src"/>
+  <property name="examples" location="examples"/>
+  <property name="build" location="build"/>
+  <property name="dist"  location="dist"/>
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="compile" depends="init"
+    description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}" includeantruntime="false" 
+      listfiles="true" debug="true"/>
+  </target>
+
+  <target name="dist" depends="compile"
+    description="generate the distribution" >
+    <!-- Create the distribution directory -->
+    <mkdir dir="${dist}/lib"/>
+    <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+    <jar destfile="${dist}/lib/${project_name}-${DSTAMP}.jar" 
+        basedir="${build}" excludes="examples/**" />
+  </target>
+
+  <target name="test" depends="dist"
+    description="compile the test source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${examples}" destdir="${build}" includeantruntime="false" 
+      listfiles="true" debug="true">
+      <classpath> 
+        <pathelement location="${dist}/lib/${project_name}-${DSTAMP}.jar"/>
+      </classpath>
+    </javac>
+  </target>
+
+  <target name="clean" description="clean up">
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+  </target>
+
+</project>
+
+

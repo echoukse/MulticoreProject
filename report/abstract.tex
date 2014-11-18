@@ -1,4 +1,5 @@
 % !TEX root = report.tex
 \begin{abstract}
-
+Shared data structures between threads, always tend to slow down the execution due to the inherent sequentiality associated with them. Several techniques are used to alleviate this disadvantage. One of these techniques is Queue delegation. Queue delegation allows a thread to offload its task to a delegate thread, which is already operating on the shared structure. This allows the thread to carry on with its execution, till the delegate thread executes the queued task. Another technique is to use Elimination. Elimination tries to take advantage of operations on the shared data structure, which have reverse semantics, for example a push and a pop on a stack. This way, none of the two threads actually access the shared data structure, resulting in less contention. 
+We use both these concepts together to implement a shared stack and analyse the performance we get from it. We have used the C++ libraries published by Klaftenegger, and implemented elimination on top of it. We compare the performance of our implementation against the basic queue delegation, and MonitorT.
 \end{abstract}

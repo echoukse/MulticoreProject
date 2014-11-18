@@ -5,12 +5,12 @@
 % Description:  Matlab script for parsing and plotting results.
 
 
-MT = 'MonitorT';
-QD = 'QD C++ Library';
-MT_wo = 'MonitorT without elimination';
-QD_wo = 'QD C++ Library without elimination';
-progs = {MT, QD};
+MT_wo = 'MonitorT';
+QD_wo = 'QD Lock';
 progs_wo = {MT_wo, QD_wo};
+MT = 'MonitorT';
+QD = 'QD Elimination Lock';
+progs = {MT, QD};
 
 langs = {'Java', 'C++'};
 java = 1;

@@ -2,7 +2,7 @@
 \section{Results / Analysis}
 We recognize that the Java and C++ queue delegation implementations will have inherent performance differences. The purpose of the analysis in this section is to determine a baseline performance difference between MonitorT (Java) and QD Lock (C++), where neither have elimination. Then, we analyze the performance difference by adding elimination to the QD Lock version (i.e., QD Elimination Lock).
 
-Figure~\ref{fig:baseline} shows the baseline performance comparison between MonitorT and QD Lock (neither having stack elimination). Figure~\ref{fig:fig00} shows that the two implementations are relatively similar, with the C++ implementation slightly outperforming MonitorT, as would be expected. It is interesting to note that they both seem to scale equally well with increasing thread counts. However, Figure~\ref{fig:fig01} shows that their performance is relatively volatile when the delegation queue size varies. As the queue size increases, both implementations have longer run times, but the MonitorT implementation generally loses performance at a faster rate, but it does exhibit an unusual peak in performance for a delegation queue size of 2048.
+Figure~\ref{fig:baseline} shows the baseline performance comparison between MonitorT and QD Lock (neither having stack elimination). Figure~\ref{fig:fig00} shows that the two implementations are relatively similar, with the C++ implementation slightly outperforming MonitorT, as would be expected. It is interesting to note that they both seem to scale equally well with increasing thread counts. However, Figure~\ref{fig:fig01} shows that their performance is relatively volatile when the delegation queue size varies. As the queue size increases, both implementations have longer run times.
 
 \begin{figure}[]
 \centering
@@ -16,7 +16,7 @@ Figure~\ref{fig:baseline} shows the baseline performance comparison between Moni
 
 In Figure~\ref{fig:fig02}, we see that the performance of QD Elimination Lock is better than QD Lock in Figure~\ref{fig:fig00}, as expected. The performance benefits are greater at higher thread counts.
 
-\begin{figure}[]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=.75\textwidth]{figs/02_TimeVsThreads_cppElim_javaNoElim.eps}
 \caption[]{Comparison of the MonitorT implementation (Java) and the QD Elimination Lock (C++), varying the number of threads (elimination included for C++ implementation, not for Java). Queue size = 256, elimination array size = 4, push ratio = 0.5.}
@@ -25,7 +25,11 @@ In Figure~\ref{fig:fig02}, we see that the performance of QD Elimination Lock is
 
 %======================================================================
 
+Figure~\ref{fig:qdlock} shows that QD Elimination Lock consistently outperforms QD Lock, across sweeps of all parameters. As the number of threads increases, the speedup of QD Elimination Lock over QD Lock increases. Figure~\ref{fig:fig04} shows that the elimination array size should not be to small nor too large, as this yields either too much contention (show where array size = 2) or not enough matches between pushes and pops (shown where array size = 16).
 
+As the delegation queue size increases, the delegate thread spends more time executing the other threads' workloads, eventually slowing the execution of the delegate thread's own work. This is seen in Figure~\ref{fig:fig05}, for both the QD Lock and QD Elimination Lock. This behavior would not be expected in MonitorT, since MonitorT uses a separate thread for the delegation queue.
+
+We see in Figure~\ref{fig:fig06} that as the push percentage increases, we would have expected the performance to decrease since there would be fewer matches between pushes and pops. But instead we see that the performance either increases or remains steady. Another anomaly is that we would expect QD Lock to have flat performance across all push percentages, since it views all operations alike.
 
 \begin{figure}[]
 \centering
@@ -51,7 +55,7 @@ The performance values observed in Figure~\ref{fig:thrd_and_elsize} also show th
 \end{figure}
 
 %======================================================================
-The elimination array size's minimal effect on performance is reflected again in Figure~\ref{fig:08b}, where the performance for each thread count remains relatively flat across all elimination array sizes. This plot also shows how increasing the number of threads monotonically decreases the performance, establishing the effects of contention at the higher thread counts.
+The elimination array size's minimal effect on performance is reflected again in Figure~\ref{fig:fig08b}, where the performance for each thread count remains relatively flat across all elimination array sizes. This plot also shows how increasing the number of threads monotonically decreases the performance, establishing the effects of contention at the higher thread counts.
 
 Figure~\ref{fig:fig08a} shows that initially, increasing the delegation queue size adversely affects performance. However, for delegation queue sizes above 1024, the performance levels out.
 

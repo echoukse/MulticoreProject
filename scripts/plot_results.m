@@ -17,9 +17,9 @@ java = 1;
 cpp = 2;
 
 %num_threads = {'4'};
-num_threads = {'1', '2', '4', '8'};
+num_threads = {'1', '2', '4', '6', '8'};
 %qd_size = {'128'};
-qd_size = {'128', '256', '512', '1024'};
+qd_size = {'128', '256', '512', '1024', '2048'};
 %elarray_size = {'4'};
 elarray_size = {'2', '4', '8', '16'};
 %pct_push = {'50'};
@@ -228,7 +228,7 @@ ycpp_wo = [];
 ycpp = [];
 
 % Default values
-t = t_def;
+t = '8';
 e = e_def;
 q = q_def;
 p = p_def;
@@ -342,7 +342,7 @@ set(leg,'FontSize',16, 'Interpreter', 'latex');
 set(gca, 'FontSize',14);
 xlabel('Percentage of pushes','FontSize',16, 'Interpreter', 'latex');
 ylabel('Run time (ms)','FontSize',16, 'Interpreter', 'latex');
-print_fname = ['../report/figs/' plotnum '_TimeVsElsize_cppElim_cppNoElim'];
+print_fname = ['../report/figs/' plotnum '_TimeVsPctPush_cppElim_cppNoElim'];
 print('-r600', '-depsc', print_fname); % .eps (better for LaTeX)
 
 %===========================
@@ -612,7 +612,7 @@ ylim([lims(1) (1.1*lims(2))]);
 leg = legend(plot_legend, 'Location', 'north');
 set(leg,'FontSize',16, 'Interpreter', 'latex');
 set(gca, 'FontSize',14);
-xlabel('Thread count','FontSize',16, 'Interpreter', 'latex');
+xlabel('Delegation queue size','FontSize',16, 'Interpreter', 'latex');
 ylabel('Run time (ms)','FontSize',16, 'Interpreter', 'latex');
 print_fname = ['../report/figs/' plotnum '_E4_TimeVsEsizeVsThreads_cppElim'];
 print('-r600', '-depsc', print_fname); % .eps (better for LaTeX)
@@ -665,7 +665,7 @@ ylim([lims(1) (1.1*lims(2))]);
 leg = legend(plot_legend, 'Location', 'east');
 set(leg,'FontSize',16, 'Interpreter', 'latex');
 set(gca, 'FontSize',14);
-xlabel('Thread count','FontSize',16, 'Interpreter', 'latex');
+xlabel('Elimination array size','FontSize',16, 'Interpreter', 'latex');
 ylabel('Run time (ms)','FontSize',16, 'Interpreter', 'latex');
 print_fname = ['../report/figs/' plotnum '_Q128_TimeVsEsizeVsThreads_cppElim'];
 print('-r600', '-depsc', print_fname); % .eps (better for LaTeX)

@@ -13,9 +13,9 @@ import sys, os, subprocess, argparse, re
 # Set stuff up.
 num_iterations = 1000000
 #num_threads = {4}
-num_threads = {1, 2, 4, 8}
+num_threads = {1, 2, 4, 6, 8}
 #qd_size = {128}
-qd_size = {128, 256, 512, 1024}
+qd_size = {128, 256, 512, 1024, 2048}
 #elarray_size = {4}
 elarray_size = {2, 4, 8, 16}
 #pct_push = {50}
@@ -61,75 +61,122 @@ def do_run(cmd, fout_name):
         fout.flush()
 
 #=====================================================================
+# Make all of the C++ programs.
+def make_all():
+    for exe in execs:
+        os.chdir(QD_dir)
+        do_make('make counter_qd{}_{}'.format(exe['thr'], exe['qds']))
+
+    for exe in execs_noElArray:
+        os.chdir(QD_noEA_dir)
+        do_make('make counter_qd{}_{}'.format(exe['thr'], exe['qds']))
+
+    os.chdir(orig_dir)
+
+#=====================================================================
 # Iterate through all of the programs.
-for exe in execs:
-    os.chdir(QD_dir)
-    cmd = exe['cmdQD']
-    fout_name = 'QD_t{}_q{}_e{}_p{}.txt'.format(exe['thr'], exe['qds'], exe['el'], exe['pct'])
-    do_make('make counter_qd{}_{}'.format(exe['thr'], exe['qds']))
-    do_run(cmd, fout_name)
+def exe_all():
+    for exe in execs:
+        os.chdir(QD_dir)
+        cmd = exe['cmdQD']
+        fout_name = 'QD_t{}_q{}_e{}_p{}.txt'.format(exe['thr'], exe['qds'], exe['el'], exe['pct'])
+        print fout_name
+        #do_make('make counter_qd{}_{}'.format(exe['thr'], exe['qds']))
+        do_run(cmd, fout_name)
 
-for exe in execs_noElArray:
-    os.chdir(QD_noEA_dir)
-    cmd = exe['cmdQD_noEA']
-    fout_name = 'QD_t{}_q{}_e0_p{}.txt'.format(exe['thr'], exe['qds'], exe['pct'])
-    do_make('make counter_qd{}_{}'.format(exe['thr'], exe['qds']))
-    do_run(cmd, fout_name)
+    for exe in execs_noElArray:
+        os.chdir(QD_noEA_dir)
+        cmd = exe['cmdQD_noEA']
+        fout_name = 'QD_t{}_q{}_e0_p{}.txt'.format(exe['thr'], exe['qds'], exe['pct'])
+        print fout_name
+        #do_make('make counter_qd{}_{}'.format(exe['thr'], exe['qds']))
+        do_run(cmd, fout_name)
 
-    os.chdir(MT_dir)
-    cmd = exe['cmdMT']
-    fout_name = 'MT_t{}_q{}_e0_p{}.txt'.format(exe['thr'], exe['qds'], exe['pct'])
-    do_run(cmd, fout_name)
+        os.chdir(MT_dir)
+        cmd = exe['cmdMT']
+        fout_name = 'MT_t{}_q{}_e0_p{}.txt'.format(exe['thr'], exe['qds'], exe['pct'])
+        print fout_name
+        do_run(cmd, fout_name)
 
-os.chdir(orig_dir)
+    os.chdir(orig_dir)
 #=====================================================================
 # Parse data.
-for exe in execs:
-    # QD with elimination array.
-    fin_name = 'QD_t{}_q{}_e{}_p{}.txt'.format(exe['thr'], exe['qds'], exe['el'], exe['pct'])
-    with open(os.path.join(output_dir, fin_name), 'r') as fin:
-        lines = fin.readlines()
-        # Match groups:              (   1  )
-        m = re.match(r'^time needed: ([0-9]*) .*', lines[1])
-        if m:
-            key = 'QD_t{}_q{}_e{}_p{}'.format(exe['thr'], exe['qds'], exe['el'], exe['pct'])
-            data[key] = m.group(1)
-        else:
-            print 'Error with %' % key
+def parse_data():
+    for exe in execs:
+        # QD with elimination array.
+        fin_name = 'QD_t{}_q{}_e{}_p{}.txt'.format(exe['thr'], exe['qds'], exe['el'], exe['pct'])
+        with open(os.path.join(output_dir, fin_name), 'r') as fin:
+            lines = fin.readlines()
+            # Match groups:              (   1  )
+            m = re.match(r'^time needed: ([0-9]*) .*', lines[1])
+            if m:
+                key = 'QD_t{}_q{}_e{}_p{}'.format(exe['thr'], exe['qds'], exe['el'], exe['pct'])
+                data[key] = m.group(1)
+            else:
+                print 'Error with %' % key
 
-for exe in execs_noElArray:
-    # QD without elimination array.
-    fin_name = 'QD_t{}_q{}_e0_p{}.txt'.format(exe['thr'], exe['qds'], exe['pct'])
-    with open(os.path.join(output_dir, fin_name), 'r') as fin:
-        lines = fin.readlines()
-        # Match groups:              (   1  )
-        m = re.match(r'^time needed: ([0-9]*) .*', lines[1])
-        if m:
-            key = 'QD_t{}_q{}_e0_p{}'.format(exe['thr'], exe['qds'], exe['pct'])
-            data[key] = m.group(1)
-        else:
-            print 'Error with %' % key
+    for exe in execs_noElArray:
+        # QD without elimination array.
+        fin_name = 'QD_t{}_q{}_e0_p{}.txt'.format(exe['thr'], exe['qds'], exe['pct'])
+        with open(os.path.join(output_dir, fin_name), 'r') as fin:
+            lines = fin.readlines()
+            # Match groups:              (   1  )
+            m = re.match(r'^time needed: ([0-9]*) .*', lines[1])
+            if m:
+                key = 'QD_t{}_q{}_e0_p{}'.format(exe['thr'], exe['qds'], exe['pct'])
+                data[key] = m.group(1)
+            else:
+                print 'Error with %' % key
 
-    # MonitorT
-    fin_name = 'MT_t{}_q{}_e0_p{}.txt'.format(exe['thr'], exe['qds'], exe['pct'])
-    with open(os.path.join(output_dir, fin_name), 'r') as fin:
-        line = fin.readline()
-        # Match groups: (   1  )
-        m = re.match(r'^([0-9]*).*', line)
-        if m:
-            key = 'MT_t{}_q{}_e0_p{}'.format(exe['thr'], exe['qds'], exe['pct'])
-            data[key] = m.group(1)
-        else:
-            print 'Error with %' % key
+        # MonitorT
+        fin_name = 'MT_t{}_q{}_e0_p{}.txt'.format(exe['thr'], exe['qds'], exe['pct'])
+        with open(os.path.join(output_dir, fin_name), 'r') as fin:
+            line = fin.readline()
+            # Match groups: (   1  )
+            m = re.match(r'^([0-9]*).*', line)
+            if m:
+                key = 'MT_t{}_q{}_e0_p{}'.format(exe['thr'], exe['qds'], exe['pct'])
+                data[key] = m.group(1)
+            else:
+                print 'Error with %' % key
 
-#=====================================================================
-# Save data to file.
-with open(data_file, 'w') as fdata:
-    fdata.write('run,time\n')
-    for key, d in data.items():
-        fdata.write('{},{}\n'.format(key,d))
+    # Save data to file.
+    with open(data_file, 'w') as fdata:
+        fdata.write('run,time\n')
+        for key, d in data.items():
+            fdata.write('{},{}\n'.format(key,d))
 
 #=====================================================================
 # Plot results.
-#cmd = '{} -nosplash -nodesktop -r "run(\'plot_results.m\');exit;"'.format(matlab_path)
-#do_run(cmd, os.path.join(output_dir, 'matlab_console.txt'))
+def plot():
+    cmd = '{} -nosplash -nodesktop -r "run(\'plot_results.m\');exit;"'.format(matlab_path)
+    do_run(cmd, os.path.join(output_dir, 'matlab_console.txt'))
+
+#=====================================================================
+arg_parser = argparse.ArgumentParser(description = 'Run the various parts of the project.')
+group = arg_parser.add_mutually_exclusive_group(required=True)
+group.add_argument('-m', '--make', action='store_true',
+        help='Make all of the C++ files.')
+group.add_argument('-e', '--execute', action='store_true',
+        help='Execute all of the tests, automatically saving output data file per test.')
+group.add_argument('-d', '--data', action='store_true',
+        help='Parse the data from the executed tests, and save to a unified .csv file.')
+group.add_argument('-p', '--plots', action='store_true',
+        help='Generate the plots (using MATLAB) from the parsed data .csv file.')
+group.add_argument('-a', '--all', action='store_true',
+        help='Run everything: Make, Execute, Parse/save and generate plots.')
+
+args = arg_parser.parse_args()
+
+if args.make or args.all:
+    make_all()
+
+if args.execute or args.all:
+    exe_all()
+
+if args.data or args.all:
+    parse_data()
+
+if args.plots or args.all:
+    plot()
+

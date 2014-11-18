@@ -154,16 +154,15 @@ def plot():
 
 #=====================================================================
 arg_parser = argparse.ArgumentParser(description = 'Run the various parts of the project.')
-group = arg_parser.add_mutually_exclusive_group(required=True)
-group.add_argument('-m', '--make', action='store_true',
+arg_parser.add_argument('-m', '--make', action='store_true',
         help='Make all of the C++ files.')
-group.add_argument('-e', '--execute', action='store_true',
+arg_parser.add_argument('-e', '--execute', action='store_true',
         help='Execute all of the tests, automatically saving output data file per test.')
-group.add_argument('-d', '--data', action='store_true',
+arg_parser.add_argument('-d', '--data', action='store_true',
         help='Parse the data from the executed tests, and save to a unified .csv file.')
-group.add_argument('-p', '--plots', action='store_true',
+arg_parser.add_argument('-p', '--plots', action='store_true',
         help='Generate the plots (using MATLAB) from the parsed data .csv file.')
-group.add_argument('-a', '--all', action='store_true',
+arg_parser.add_argument('-a', '--all', action='store_true',
         help='Run everything: Make, Execute, Parse/save and generate plots.')
 
 args = arg_parser.parse_args()

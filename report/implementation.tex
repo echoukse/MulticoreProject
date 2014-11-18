@@ -1,0 +1,15 @@
+% !TEX root = report.tex
+\section{Implementation}
+We started by using the examples provided by the QD Lock libraries. We modified the critical section functions to emulate a stack and its corresponding operations, pop and push. 
+Next, we implemented the elimination array and exchanger. We modified the QD Lock libraries, so that in case the thread is not able to become the delegate thread, nor insert its task into the delegation queue (because of the queue being full), it tries the elimination array instead. The elimination array size is an important factor in the performance, since we need to keep a balance between contention and match-timeouts. Match-timeouts happen when a thread waits in the elimination array for too long, without getting a partner. It then times out and tries to get the delegation lock again.
+We encountered several issues with the C++ code of the libraries, which hugely uses templates. Templates restrict the usage of some functions and parameters and it was difficult to get past these barriers. It was necessary to match the future/promise assignments as expected by the threads to guarantee correct execution.
+Once we had the implementation ready, we pulled out all the affecting parameters out as command line arguments and profiled the behaviour of the implementation(to automate the data collection). Lastly, implemented a stack using MonitorT and collected and analyzed the performance of both these implementations.
+The ranges/values of various parameters we used are:
+\begin{list}
+\item Number of iterations : 1000000
+\item Number of threads: 1,2,4,6,8
+\item Queue Delegation size: 128,256,512,1024,2048
+\item Elimination Array size: 2,4,8,16
+\item Percentage of Pushes: 50,60,70,80,90
+\end{list}
+

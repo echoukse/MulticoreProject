@@ -50,12 +50,12 @@ The performance values observed in Figure~\ref{fig:thrd_and_elsize} also show th
 \subfloat[][]{\label{fig:fig07b}\includegraphics[width=.49\textwidth]{figs/07b_Q256_TimeVsThreadsVsEsize_cppElim.eps}}\\
 \subfloat[][]{\label{fig:fig07c}\includegraphics[width=.49\textwidth]{figs/07c_Q512_TimeVsThreadsVsEsize_cppElim.eps}}
 \subfloat[][]{\label{fig:fig07d}\includegraphics[width=.49\textwidth]{figs/07d_Q1024_TimeVsThreadsVsEsize_cppElim.eps}}
-\caption[]{QD Elimination Lock performance versus thread count and elimination array size - each graph represents a different delegation queue size, while multiple elimination array sizes are plotted in each graph: \subref{fig:fig07a} queue size = 128; \subref{fig:fig07b} queue size = 256; \subref{fig:fig07c} queue size = 512; \subref{fig:fig07d} queue size = 1024. Push ratio = 0.5.}
+\caption[]{QD Elimination Lock performance versus thread count and elimination array size - each graph represents a different delegation queue size, while multiple elimination array sizes are plotted in each graph (with push ratio = 0.5): \subref{fig:fig07a} queue size = 128; \subref{fig:fig07b} queue size = 256; \subref{fig:fig07c} queue size = 512; \subref{fig:fig07d} queue size = 1024.}
 \label{fig:thrd_and_elsize}
 \end{figure}
 
 %======================================================================
-The elimination array size's minimal effect on performance is reflected again in Figure~\ref{fig:fig08b}, where the performance for each thread count remains relatively flat across all elimination array sizes. This plot also shows how increasing the number of threads monotonically decreases the performance, establishing the effects of contention at the higher thread counts.
+The elimination array size's minimal effect on performance is reflected again in Figure~\ref{fig:fig08b}, where the performance for each thread count remains relatively flat across all elimination array sizes. This plot also shows how increasing the number of threads monotonically (except for 8 threads) decreases the performance, establishing the effects of contention at the higher thread counts. The line depicting 8 threads shows different behavior, likely due to contention from running 8 threads on a 8-threaded machine.
 
 Figure~\ref{fig:fig08a} shows that initially, increasing the delegation queue size adversely affects performance. However, for delegation queue sizes above 1024, the performance levels out.
 
@@ -63,6 +63,6 @@ Figure~\ref{fig:fig08a} shows that initially, increasing the delegation queue si
 \centering
 \subfloat[][]{\label{fig:fig08b}\includegraphics[width=.49\textwidth]{figs/08b_Q128_TimeVsEsizeVsThreads_cppElim.eps}}
 \subfloat[][]{\label{fig:fig08a}\includegraphics[width=.49\textwidth]{figs/08a_E4_TimeVsEsizeVsThreads_cppElim.eps}}
-\caption[]{\subref{fig:fig08b} QD Elimination Lock performance versus elimination array size and thread count. Push ratio = 0.5. \subref{fig:fig08a} QD Elimination Lock performance versus delegation queue size and thread count.}
+\caption[]{\subref{fig:fig08b} QD Elimination Lock performance versus elimination array size and thread count (queue size = 256, push ratio = 0.5). \subref{fig:fig08a} QD Elimination Lock performance versus delegation queue size and thread count (elimination array size = 4, push ratio = 0.5).}
 \label{fig:qdsize_and_thrd}
 \end{figure}

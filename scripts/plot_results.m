@@ -579,7 +579,7 @@ plot_legend = {};
 
 % Default values
 t = t_def;
-e = '4';
+e = e_def;
 q = q_def;
 p = p_def;
 for i = 1:length(qd_size)
@@ -633,7 +633,7 @@ plot_legend = {};
 % Default values
 t = t_def;
 e = e_def;
-q = '128';
+q = q_def;
 p = p_def;
 for i = 1:length(elarray_size)
     e = elarray_size{i};
@@ -662,7 +662,7 @@ figure;
 plot(x,y,'-o');
 lims = ylim();
 ylim([lims(1) (1.1*lims(2))]);
-leg = legend(plot_legend, 'Location', 'east');
+leg = legend(plot_legend, 'Location', 'north');
 set(leg,'FontSize',16, 'Interpreter', 'latex');
 set(gca, 'FontSize',14);
 xlabel('Elimination array size','FontSize',16, 'Interpreter', 'latex');

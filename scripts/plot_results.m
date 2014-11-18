@@ -392,7 +392,7 @@ figure;
 plot(x,y,'-o');
 lims = ylim();
 ylim([lims(1) (1.1*lims(2))]);
-leg = legend(plot_legend, 'Location', 'southeast');
+leg = legend(plot_legend, 'Location', 'northwest');
 set(leg,'FontSize',16, 'Interpreter', 'latex');
 set(gca, 'FontSize',14);
 xlabel('Thread count','FontSize',16, 'Interpreter', 'latex');

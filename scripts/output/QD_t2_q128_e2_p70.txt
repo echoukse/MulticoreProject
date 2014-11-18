@@ -1,2 +1,2 @@
 2 threads / QD locking
-time needed: 772 ms
+time needed: 760 ms

@@ -1,2 +1,2 @@
 4 threads / QD locking
-time needed: 1746 ms
+time needed: 2846 ms

@@ -1,4 +1,4 @@
-PDF_OUTPUT_FILE = ec27876_mt29253.pdf
+PDF_OUTPUT_FILE = report_ec27876_mt29253.pdf
 ROOT_TEX = report.tex
 
 TEXFILES := $(wildcard *.tex)

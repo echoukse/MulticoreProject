@@ -1,0 +1,71 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[final]{pdfpages}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[alsoload=binary]{siunitx}
+\usepackage{multirow}
+%\usepackage{url}
+\usepackage{array}
+\usepackage{subfig}
+\usepackage{pdflscape}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\usepackage[table]{xcolor}
+\usepackage{arydshln}
+
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\fancyhead[LO,LE]{Esha Choukse, Mike Thomson}
+\usepackage{lastpage}
+\fancyhead[RO,RE]{Multicore Computing, Fall 2014\\{Project}}
+\fancyfoot[CO,CE]{\thepage\ of  \pageref{LastPage}}
+
+\font\capfont=cmbx12 at 24.87 pt % or yinit, or...?
+\newbox\capbox \newcount\capl \def\a{A}
+\def\docappar{\medbreak\noindent\setbox\capbox\hbox{\capfont\a\hskip0.15em}%
+\hangindent=\wd\capbox%
+\capl=\ht\capbox\divide\capl by\baselineskip\advance\capl by1\hangafter=-\capl%
+\hbox{\vbox to8pt{\hbox to0pt{\hss\box\capbox}\vss}}}
+\def\cappar{\afterassignment\docappar\noexpand\let\a }
+
+\textwidth = 6.5 in
+\textheight = 8.5 in
+\oddsidemargin = 0.0 in
+\evensidemargin = 0.0 in
+\topmargin = -0.5 in
+\headsep = 1 in
+\parskip = 0.2 in
+\parindent = 0.0 in
+
+\definecolor{DarkGray}{gray}{0.7}
+\definecolor{Gray}{gray}{0.9}
+
+\pagestyle{fancy}
+
+\begin{document}
+\title{Shared Stack Implementation and Analysis Using Queue Delegation with Elimination\\(Final Project)}
+\author{Esha Choukse (ec27876), Mike Thomson (mt29253)\\Multicore Computing, Fall 2014}
+\date{November 20, 2014}
+\maketitle
+
+%-----------------------------------------------------------------------
+
+\input{content}
+
+%-----------------------------------------------------------------------
+
+\bibliographystyle{ieeetr}
+\bibliography{bibtex}
+\end{document}
